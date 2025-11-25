@@ -1,0 +1,192 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color:#0008ED ;
+  color: black;
+  font-family: Garamond;
+}
+
+/* ------------------ POETRY --------------- */
+.poetryparent {
+  position: relative;
+  top: 0vh;
+  left: 0vw;
+  display: flex;
+
+}
+.MJRH{
+  position:absolute;
+  top: 2vh;
+  left: 72vw;
+  width: 26vw;
+  height:auto;
+}
+.BP {
+  position: absolute;
+  top: 15vh;
+  left: 70vw;
+  width: 14vw;
+  height:auto;
+
+}
+.NKS {
+  position: absolute;
+  top: 16vh;
+  left: 40vw;
+  width: 16vw;
+  height:auto;
+
+}
+
+.NKSR {
+  position: absolute;
+  top: 25vh;
+  left: 25vw;
+  width: 17vw;
+  height:auto;
+
+}
+
+.JJG {
+  position: absolute;
+  top: 38vh;
+  left: 58vw;
+  width: 15vw;
+  z-index: 4;
+  height:auto;
+
+}
+
+.JBS {
+  position: absolute;
+  top: 44vh;
+  left: 30vw;
+  width: 14vw;
+  height:auto;
+
+}
+.TKD {
+  position: absolute;
+  top: 58vh;
+  left: 61vw;
+  width: 19vw;
+  height:auto;
+
+}
+.MHA {
+  position: absolute;
+  top: 67vh;
+  left: 52vw;
+  width: 17vw;
+  height:auto;
+  z-index:2;
+
+} 
+
+/* =----------------- ART --------------------- */
+.ARTparent {
+  position: relative;
+  top: 0vh;
+  left: 0vw;
+  display: flex;
+}
+.ARTOND {
+  position: absolute;
+  top: 18vh;
+  left: 2vw; 
+  width:25vw;
+  height:60vh;
+  z-index:3;
+}
+.BORDER{
+  position:absolute;
+  width:25.1vw;
+  height:4vh;
+  top: 14vh;
+  left: 2vw;
+}
+.BORDER2{
+  position:absolute;
+  width:25.1vw;
+  height:4vh;
+  top: 78vh;
+  left: 2vw;
+}
+
+/* ------------------------- COLLAGE --------------------- */
+.COLLAGEparent{
+  position:relative;
+  top: 0vh;
+  left: 0vw;
+  display: flex;
+}
+.BANNER{
+  position:absolute;
+  top: 0vh;
+  left: 14vw;
+  width:24vw;
+  rotate: 5deg;
+}
+.overlapbanner{
+    position:absolute;
+    top: 9vh;
+    left: 20vw;
+    width:10vw;
+    rotate: 5deg;
+    z-index: 3;
+}
+.bachat{
+  position:absolute;
+  top: 75vh;
+  left: 58.5vw;
+  width:40vw;
+  z-index: 1;
+
+}
+.craft{
+  position:absolute;
+  top: 60vh;
+  left: 28vw;
+  width:45vw;
+  z-index: 3;
+}
+.faiwy{
+  position:relative;
+  top: 80vh;
+  left: 15vw;
+  width:auto;
+  height:40vh;
+  transform: rotate(-10deg);
+  z-index: 2;
+}
+.nani{
+  position:absolute;
+  top: 100vh;
+  left: 0vw;
+  width:20vw;
+  z-index: 1;
+}
+.zebu{
+  position:absolute;
+  top: 125vh;
+  left: 30vw;
+  height:20vw;
+  transform: rotate(-20deg);
+  z-index: 2;
+}
+.aishu{
+  position:absolute;
+  top: 36vh;
+  left: 80vw;
+  height:30vw;
+  z-index: 1;
+}
+.temple{
+  position:absolute;
+  top: 10vh;
+  left: 0vw;
+  width:83vw;
+  z-index: 1;
+}

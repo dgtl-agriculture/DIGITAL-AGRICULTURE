@@ -1,0 +1,551 @@
+
+body {
+  background-color:#0008ED ;
+  color: black;
+  font-family: Garamond;
+}
+
+
+/* BORDER */
+.borderparent {
+  position: relative;
+  top: -1vh;
+  left: 0vw;
+  display: flex;
+}
+.bordhorz{position:absolute;top: 0vh;left: 0vw;width: 28vw;height:auto;z-index: 0;}
+.bordhorz2{position:absolute;top: 0vh;left: 28vw;width: 28vw;height:auto;z-index: 0;}
+.bordhorz3{position:absolute;top: 0vh;left: 56vw;width: 28vw;height:auto;z-index: 0;}
+/* .bordhorz4{position:absolute;top: 0vh;left: 84vw;width: 28vw;height:auto;z-index: 0;} */
+
+.bordvert{position:absolute;top: 0vh;left: 0vw;width: 0.8vw;height:auto;z-index: 0;}
+.bordvert2{position:absolute;top: 28vh;left: 0w;width: 0.8vw;height:auto;z-index: 0;}
+.bordvert3{position:absolute;top: 56vh;left: 0vw;width: 0.8vw;height:auto;z-index: 0;}
+.bordvert4{position:absolute;top: 84vh;left: 0vw;width: 0.8vw;height:auto;z-index: 0;}
+.bordvert5{position:absolute;top: 98vh;left: 0vw;width: 0.8vw;height:auto;z-index: 0;}
+.bordvertr{position:absolute;top: 0vh;left: 99vw;width: 0.8vw;height:auto;z-index: 2;}
+.bordvertr2{position:absolute;top: 28vh;left: 99vw;width: 0.8vw;height:auto;z-index: 2;}
+.bordvertr3{position:absolute;top: 56vh;left: 99vw;width: 0.8vw;height:auto;z-index: 2;}
+.bordvertr4{position:absolute;top: 84vh;left: 99vw;width: 0.8vw;height:auto;z-index: 0;}
+.bordvertr5{position:absolute;top: 98vh;left: 99vw;width: 0.8vw;height:auto;z-index: 0;}
+/* .bordvert4{position:absolute;top: 0vh;left: 84vw;width: 28vw;height:auto;z-index: 0;} */
+/* .bordhorz5{position:absolute;top: 0vh;left: 56vw;width: 28vw;height:auto;z-index: 0;} */
+
+/* ------------------ POETRY --------------- */
+.poetryparent {
+  position: relative;
+  top: 0vh;
+  left: 0vw;
+  display: flex;
+
+}
+.MJRH{
+  position:absolute;
+  top: 2vh;
+  left: 72vw;
+  width: 26vw;
+  height:auto;
+}
+.BP {
+  position: absolute;
+  top: 15vh;
+  left: 70vw;
+  width: 14vw;
+  height:auto;
+
+}
+.NKS {
+  position: absolute;
+  top: 16vh;
+  left: 40vw;
+  width: 16vw;
+  height:auto;
+
+}
+
+.NKSR {
+  position: absolute;
+  top: 25vh;
+  left: 25vw;
+  width: 17vw;
+  height:auto;
+
+}
+
+.JJG {
+  position: absolute;
+  top: 38vh;
+  left: 58vw;
+  width: 15vw;
+  z-index: 4;
+  height:auto;
+
+}
+
+.JBS {
+  position: absolute;
+  top: 44vh;
+  left: 30vw;
+  width: 14vw;
+  height:auto;
+
+}
+.TKD {
+  position: absolute;
+  top: 58vh;
+  left: 61vw;
+  width: 19vw;
+  height:auto;
+
+}
+.MHA {
+  position: absolute;
+  top: 67vh;
+  left: 52vw;
+  width: 17vw;
+  height:auto;
+  z-index:2;
+
+} 
+
+/* =----------------- ART --------------------- */
+.ARTparent {
+  position: relative;
+  top: 0vh;
+  left: 0vw;
+  display: flex;
+}
+.ARTOND {
+  position: absolute;
+  top: 18vh;
+  left: 2vw; 
+  width:25vw;
+  height:60vh;
+  z-index:3;
+}
+.BORDER{
+  position:absolute;
+  width:25.1vw;
+  height:4vh;
+  top: 14vh;
+  left: 2vw;
+}
+.BORDER2{
+  position:absolute;
+  width:25.1vw;
+  height:4vh;
+  top: 78vh;
+  left: 2vw;
+}
+
+/* ------------------------- COLLAGE --------------------- */
+.COLLAGEparent{
+  position:relative;
+  top: 0vh;
+  left: 0vw;
+  display: flex;
+}
+.BANNER{
+  position:absolute;
+  top: 0vh;
+  left: 0vw;
+  display: flex;
+  width:24vw;
+
+}
+.bachat{
+  position:absolute;
+  top: 75vh;
+  left: 58.5vw;
+  width:40vw;
+  z-index: 4;
+}
+.craft{
+  position:absolute;
+  top: 60vh;
+  left: 28vw;
+  width:45vw;
+  z-index: 2;
+}
+.faiwy{
+  position:relative;
+  top: 80vh;
+  left: 15vw;
+  width:auto;
+  height:40vh;
+  transform: rotate(-10deg);
+  z-index: 5;
+}
+.nani{
+  position:absolute;
+  top: 100vh;
+  left: 0vw;
+  width:20vw;
+  z-index: 5;
+}
+.zebu{
+  position:absolute;
+  top: 135vh;
+  left: 15vw;
+  height:15vw;
+  transform: rotate(-10deg);
+  z-index: 5;
+}
+.seeriyan{
+  position:absolute;
+  top: 78vh;
+  left: 70vw;
+  width:13vw;
+  z-index:5 ;
+}
+.aishu{
+  position:absolute;
+  top: 35vh;
+  left: 88vw;
+  height:15vw;
+  z-index: 4;
+}
+.temple{
+  position:absolute;
+  top: 50vh;
+  left: 84vw;
+  height:15vw;
+  z-index: 5;
+}
+.divv{
+  position:absolute;
+  top: 125vh;
+  left: 55vw;
+  height:23vw;
+  z-index: 5;
+}
+
+/* WEBAMP */
+.WEBAMPsHIZ{
+  position: absolute;
+  top: 135vh;
+  left: 40vw;
+  z-index:5
+}
+
+.OUTFIT{
+  position:relative;
+  top: 150vh;
+  left: 0vw;
+  display: flex;
+}
+.base{
+  position:absolute;
+  top: 47vh;
+  left: 43vw;
+  display: flex;
+  width:12vw;
+  z-index: 1;
+}
+.jersey{
+  position:absolute;
+  top: 40vh;
+  left: 80vw;
+  display: flex;
+  width:14vw;
+  z-index: 4;
+}
+.fitness{
+  position:absolute;
+  top: 45vh;
+  left: 84vw;
+  display: flex;
+  width:14vw;
+  z-index: 4;
+
+}
+.pants{
+  position:absolute;
+  top: 85vh;
+  left: 84vw;
+  display: flex;
+  width:9.5vw;
+  z-index: 3;
+  transform: rotate(3deg);
+
+}
+.DOOM{
+  position:absolute;
+  top: 56vh;
+  left: 34vw;
+  display: flex;
+  width:5vw; 
+  z-index: 2;
+}
+.BOOT1{
+  position:absolute;
+  top: 93vh;
+  left: 24vw;
+  display: flex;
+  width:5vw; 
+  z-index: 2;
+  transform: rotate(4deg);
+}
+.BOOT2{
+  position:absolute;
+  top: 93vh;
+  left: 22vw;
+  display: flex;
+  width:5vw; 
+  z-index: 2;
+  transform: rotate(20deg);
+  transform: scaleX(-1);
+}
+.SURYAHEAD{
+  position:absolute;
+  top: 38vh;
+  left: 10vw;
+  display: flex;
+  width:5vw; 
+  z-index: 2;
+  transform: rotate(0deg);
+}
+.brownshorts{
+  position:absolute;
+  top: 80vh;
+  left: 13vw;
+  display: flex;
+  width:10vw; 
+  z-index: 2;
+  transform: rotate(0deg);
+}
+.blackpants{
+  position:absolute;
+  top: 73.5vh;
+  left: 44vw;
+  display: flex;
+  width:10.3vw; 
+  z-index: 2;
+  transform: rotate(0deg);
+}
+.SUIT{
+  position:absolute;
+  top: 14.5vh;
+  left: 70vw;
+  display: flex;
+  width:15vw; 
+  z-index: 5;
+  transform: rotate(0deg);
+}
+.room{
+  position:absolute;
+  top: 23vh;
+  left: 20vw;
+  display: flex;
+  width:60vw; 
+  z-index: 0;
+  transform: rotate(0deg);
+}
+.phool{
+  position:absolute;
+  top: 20vh;
+  left: 5vw;
+  display: flex;
+  width:40vw; 
+  z-index: -1;
+  transform: rotate(0deg);
+}
+.phool2{
+  position:absolute;
+  top: 20vh;
+  left: 65vw;
+  display: flex;
+  width:40vw; 
+  z-index: -1;
+  transform: rotate(0deg);
+}
+.ytskrt{
+  position:absolute;
+  top: 80vh;
+  left: 6vw;
+  display: flex;
+  width:11vw; 
+  z-index: 2;
+  transform: rotate(0deg);
+}.bluekurta{
+  position:absolute;
+  top: 54vh;
+  left: 4vw;
+  display: flex;
+  width:14.3vw; 
+  z-index: 3;
+  transform: rotate(0deg);
+}
+.blackkurta{
+  position:absolute;
+  top: 44vh;
+  left: 10vw;
+  display: flex;
+  width:13.8vw; 
+  z-index: 3;
+  transform: rotate(1deg);
+}
+.champ{
+  position:absolute;
+  top: 35vh;
+  left: 10vw;
+  display: flex;
+  width:14vw; 
+  z-index: 6;
+  transform: rotate(85deg);
+}
+.topi{
+  position:absolute;
+  top: 33vh;
+  left: 14vw;
+  display: flex;
+  width:3vw; 
+  z-index: 6;
+  transform: rotate(5deg);
+}
+.furry{
+  position:absolute;
+  top: 90vh;
+  left: 73vw;
+  display: flex;
+  width:5.8vw; 
+  z-index: 1;
+  transform: rotate(7deg);
+}
+.furry2{
+  position:absolute;
+  top: 90vh;
+  left: 70vw;
+  display: flex;
+  width:5.8vw; 
+  z-index: 1;
+  transform: rotate(7deg);
+  transform: scaleX(-1);
+}
+
+/* EYES */
+.EYESwrapper{
+  position: relative;
+  top: 110vh;
+  left:0vw;
+  display : flex;
+  align-items : center;
+}
+.EYESbackground{
+  position: absolute;
+  top: 120vh;
+  left:0vw;
+  width: 99vw;
+  height: 100vh;
+}
+.black{
+  background-color: rgba(55, 0, 255, 0.591);
+  opacity: 1.0;
+
+}
+.RIGHTEYE{
+  position: absolute;
+  top: 130vh;
+  left: 50vw;
+  width: 60vw;
+  /* height: 100px; */
+  display:block;
+  z-index:2;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 25s;
+  -webkit-transition-timing-function: ease-in-out;
+  transform: scale(0.2);
+}
+.RIGHTEYE:hover {
+    transform: scale(1);
+}
+
+.LEFTEYE{
+  position: absolute;
+  top: 130vh;
+  left: 0vw;
+  width: 80vw;
+  /* height: 100px; */
+  display:block;
+  z-index:2;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 25s;
+  -webkit-transition-timing-function: ease-in-out;
+  transform: scale(0.2);
+}
+.LEFTEYE:hover {
+    transform: scale(1);
+}
+/* .WP01{position: absolute; top: 140vh;left: 5vw;width: 40vw;display:block;z-index:1;}
+.WP02{position: absolute; top: 200vh;left: 5vw;width: 60vw;display:block;z-index:1;} 
+.WP03{position: absolute; top: 170vh;left: 60vw;width: 40vw;display:block;z-index:1;}
+.WP04{position: absolute; top: 180vh;left: 5vw;width: 40vw;display:block;z-index:1;}
+.WP05{position: absolute; top: 190vh;left: 60vw;width: 40vw;display:block;z-index:1;}
+.WP06{position: absolute; top: 190vh;left: 15vw;width: 40vw;display:block;z-index:1;}
+.WP07{position: absolute; top: 190vh;left: 60vw;width: 40vw;display:block;z-index:1;} */
+
+/* .WOMAN{position:sticky; top: 150vh;left: 25vw;width: 40vw; display:block; z-index:2;}
+.HILLONE{position: absolute; top: 145vh;left: 0vw;width: 55vw;display:block;z-index:3;} */
+/* .HILLTWO{position: absolute; top: 150vh;left: 39vw;width: 60vw;display:block;z-index:1;} */
+
+/* EYES */
+.DHRUV{
+  position: relative;
+  top: 270vh;
+  left:0vw;
+  display : flex;
+}
+/* EYES */
+.DHRUVONE{
+  position: absolute;
+  top: 7vh;
+  left:0vw;
+  width:70vw;
+  display : flex;
+}
+.DHRUVTWO{
+  position: absolute;
+  top: 7vh;
+  left:70vw;
+  width:25vw;
+  display : flex;
+}
+.DHRUVTHREE{
+  position: absolute;
+  top: 67vh;
+  left:0vw;
+  width:70vw;
+  display : flex;
+}
+.DHRUVFOUR{
+  position: absolute;
+  top: 72vh;
+  left:70vw;
+  width:30vw;
+  display : flex;
+}
+.DHRUVFIVE{
+  position: absolute;
+  top: 105vh;
+  left:70vw;
+  width:30vw;
+  display : flex;
+}
+.DHRUVmini{
+  position: absolute;
+  top:58vh;
+  left:2vw;
+  font-size: 3vw;
+  z-index: 5;
+  color: azure;
+}
+.DHRUVdescription{
+  position: absolute;
+  top:49vh;
+  left:2vw;
+  font-size: 8vw;
+  z-index: 5;
+  color: azure;
+}
