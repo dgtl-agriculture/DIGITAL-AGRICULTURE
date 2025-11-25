@@ -1,0 +1,64 @@
+body {
+  background-color: black ;
+  color: #d90101c5;
+  font-family: Verdana;
+
+}
+ /* TITLE */
+.heading{
+    position: relative;
+    top: 0vh;
+    left: 0vw;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.ARTPAGEHEADING{
+    position: absolute;
+    top: 4vh;
+    left: 10vw;
+    font-size: 20vw;
+    margin: 0;
+    padding: 0;
+}
+
+/* AUG2025 */
+.AUG2025parent{
+    position: relative;
+    top: 50vh;
+    left: 13vw;
+    display: flex;
+
+}
+.aug2025{
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    width: 16vw;
+    height: 40vh;
+    margin: 0;
+    padding: 0;
+}
+.aug2025d{
+    position: absolute;
+    width: 20vw;
+    top: 39vh;
+    left: 0.6vw;
+
+    font-family: "Epunda Slab", serif;
+
+    font-optical-sizing: auto;
+    font-size: 1.1vw;
+    color:#d90101c5;
+}
+.aug2025signature{
+    position: absolute;
+    width: 20vw;
+    top: 45vh;
+    left: 0.58vw;
+
+    font-family: "Cossette Titre", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.2vw;
+    color:#0008ED;
+}
