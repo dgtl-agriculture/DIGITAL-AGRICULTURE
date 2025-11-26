@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DIGITALAGRICULTURE</title>
-    <link href="style2.css" rel="stylesheet" type="text/css" media="all">
+    <link href="style3.css" rel="stylesheet" type="text/css" media="all">
 
     <script>
       document.addEventListener("DOMContentLoaded", () => {
@@ -158,14 +158,25 @@
     <script type="module">
       import Webamp from "https://unpkg.com/webamp@^2";
       const webamp = new Webamp({
-
     initialTracks: [
     {url: "trax/BAARO MAALA.mp3",
-      metaData: { artist: "EXCISE DEPT.", title: "Baaro Maala"},
-      duration: 120},
+      metaData: { artist: "EXCISE DEPT.", title: "TRACK 1"},
+      duration: 300},
+      {url: "trax/FRESS.mp3",
+      metaData: { artist: "Lit Trust", title: "TRACK 2"},
+      duration: 300},
+      {url: "trax/Ek Shaneesh.mp3",
+      metaData: { artist: "Das Racist", title: "TRACK 3"},
+      duration: 300},
+      {url: "trax/FUCKJERRY.mp3",
+      metaData: { artist: "bunnyboo", title: "TRACK 4"},
+      duration: 300},
+      {url: "trax/Mausambi Drip.mp3",
+      metaData: { artist: "Dhanji", title: "TRACK 5"},
+      duration: 300},
                     ], 
       zIndex: 11,
-      // initialSkin: { url: "pics/Smooth_Blue_Chrome.wsz" },
+      initialSkin: { url: "pics/Smooth_Blue_Chrome.wsz" },
       }); 
       webamp.renderWhenReady(document.getElementById("app")).then(() => {
       setTimeout(() => {window.scrollTo(0, 0);}, 100);});

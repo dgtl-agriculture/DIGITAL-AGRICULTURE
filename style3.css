@@ -1,0 +1,493 @@
+
+body {
+  background-color:#0008ED ;
+  color: black;
+  font-family: Garamond;
+}
+
+
+/* BORDER */
+.borderparent {
+  position: relative;
+  top: -1vh;
+  left: 0vw;
+  display: flex;
+}
+.bordhorz{position:absolute;top: 0vh;left: 0vw;width: 28vw;height:auto;z-index: 0;}
+.bordhorz2{position:absolute;top: 0vh;left: 28vw;width: 28vw;height:auto;z-index: 0;}
+.bordhorz3{position:absolute;top: 0vh;left: 56vw;width: 28vw;height:auto;z-index: 0;}
+/* .bordhorz4{position:absolute;top: 0vh;left: 84vw;width: 28vw;height:auto;z-index: 0;} */
+
+.bordvert{position:absolute;top: 0vh;left: 0vw;width: 0.8vw;height:auto;z-index: 0;}
+.bordvert2{position:absolute;top: 28vh;left: 0w;width: 0.8vw;height:auto;z-index: 0;}
+.bordvert3{position:absolute;top: 56vh;left: 0vw;width: 0.8vw;height:auto;z-index: 0;}
+.bordvert4{position:absolute;top: 84vh;left: 0vw;width: 0.8vw;height:auto;z-index: 0;}
+.bordvert5{position:absolute;top: 98vh;left: 0vw;width: 0.8vw;height:auto;z-index: 0;}
+.bordvertr{position:absolute;top: 0vh;left: 99vw;width: 0.8vw;height:auto;z-index: 2;}
+.bordvertr2{position:absolute;top: 28vh;left: 99vw;width: 0.8vw;height:auto;z-index: 2;}
+.bordvertr3{position:absolute;top: 56vh;left: 99vw;width: 0.8vw;height:auto;z-index: 2;}
+.bordvertr4{position:absolute;top: 84vh;left: 99vw;width: 0.8vw;height:auto;z-index: 0;}
+.bordvertr5{position:absolute;top: 98vh;left: 99vw;width: 0.8vw;height:auto;z-index: 0;}
+/* .bordvert4{position:absolute;top: 0vh;left: 84vw;width: 28vw;height:auto;z-index: 0;} */
+/* .bordhorz5{position:absolute;top: 0vh;left: 56vw;width: 28vw;height:auto;z-index: 0;} */
+
+/* ------------------ POETRY --------------- */
+.poetryparent {
+  position: relative;
+  top: 0vh;
+  left: 0vw;
+  display: flex;
+
+}
+.MJRH{
+  position:absolute;
+  top: 2vh;
+  left: 72vw;
+  width: 26vw;
+  height:auto;
+}
+.BP {
+  position: absolute;
+  top: 15vh;
+  left: 70vw;
+  width: 14vw;
+  height:auto;
+
+}
+.NKS {
+  position: absolute;
+  top: 16vh;
+  left: 40vw;
+  width: 16vw;
+  height:auto;
+
+}
+
+.NKSR {
+  position: absolute;
+  top: 25vh;
+  left: 25vw;
+  width: 17vw;
+  height:auto;
+
+}
+
+.JJG {
+  position: absolute;
+  top: 38vh;
+  left: 58vw;
+  width: 15vw;
+  z-index: 4;
+  height:auto;
+
+}
+
+.JBS {
+  position: absolute;
+  top: 44vh;
+  left: 30vw;
+  width: 14vw;
+  height:auto;
+
+}
+.TKD {
+  position: absolute;
+  top: 58vh;
+  left: 61vw;
+  width: 19vw;
+  height:auto;
+
+}
+.MHA {
+  position: absolute;
+  top: 67vh;
+  left: 52vw;
+  width: 17vw;
+  height:auto;
+  z-index:2;
+
+} 
+
+/* =----------------- ART --------------------- */
+.ARTparent {
+  position: relative;
+  top: 0vh;
+  left: 0vw;
+  display: flex;
+}
+.ARTOND {
+  position: absolute;
+  top: 18vh;
+  left: 2vw; 
+  width:25vw;
+  height:60vh;
+  z-index:3;
+}
+.BORDER{
+  position:absolute;
+  width:25.1vw;
+  height:4vh;
+  top: 14vh;
+  left: 2vw;
+}
+.BORDER2{
+  position:absolute;
+  width:25.1vw;
+  height:4vh;
+  top: 78vh;
+  left: 2vw;
+}
+
+/* ------------------------- COLLAGE --------------------- */
+.COLLAGEparent{
+  position:relative;
+  top: 0vh;
+  left: 0vw;
+  display: flex;
+}
+.BANNER{
+  position:absolute;
+  top: 0vh;
+  left: 0vw;
+  display: flex;
+  width:24vw;
+
+}
+.bachat{
+  position:absolute;
+  top: 75vh;
+  left: 58.5vw;
+  width:40vw;
+  z-index: 4;
+}
+.craft{
+  position:absolute;
+  top: 60vh;
+  left: 28vw;
+  width:45vw;
+  z-index: 2;
+}
+.faiwy{
+  position:relative;
+  top: 80vh;
+  left: 15vw;
+  width:auto;
+  height:40vh;
+  transform: rotate(-10deg);
+  z-index: 5;
+}
+.nani{
+  position:absolute;
+  top: 100vh;
+  left: 0vw;
+  width:20vw;
+  z-index: 5;
+}
+.zebu{
+  position:absolute;
+  top: 135vh;
+  left: 15vw;
+  height:15vw;
+  transform: rotate(-10deg);
+  z-index: 5;
+}
+.seeriyan{
+  position:absolute;
+  top: 78vh;
+  left: 70vw;
+  width:13vw;
+  z-index:5 ;
+}
+.aishu{
+  position:absolute;
+  top: 35vh;
+  left: 88vw;
+  height:15vw;
+  z-index: 4;
+}
+.temple{
+  position:absolute;
+  top: 50vh;
+  left: 84vw;
+  height:15vw;
+  z-index: 5;
+}
+.divv{
+  position:absolute;
+  top: 125vh;
+  left: 55vw;
+  height:25vw;
+  z-index: 5;
+}
+
+/* WEBAMP */
+.WEBAMPsHIZ{
+  position: absolute;
+  top: 135vh;
+  left: 40vw;
+  z-index:5
+}
+
+/* ---------------------- OUTFIT SECTION (RESPONSIVE, LOCKED GEOMETRY) ---------------------- */
+
+/* Your design's native resolution */
+:root {
+  --design-width: 1512;
+  --design-height: 445;
+  --scale: 1;
+}
+
+/* Scale proportionally on smaller devices */
+@media (max-width: 1200px)  { :root { --scale: 0.85; } }
+@media (max-width: 900px)   { :root { --scale: 0.70; } }
+@media (max-width: 700px)   { :root { --scale: 0.55; } }
+@media (max-width: 500px)   { :root { --scale: 0.40; } }
+
+/* Main container */
+.OUTFIT {
+  position: relative;
+  margin: 0 auto;
+  width: calc(var(--design-width) * 1px * var(--scale));
+  height: calc(var(--design-height) * 1px * var(--scale));
+  top: 150vh;
+}
+
+/* Universal rules for outfit images */
+.OUTFIT img {
+  position: absolute;
+  display: block;
+  height: auto;
+  object-fit: contain;
+  transform-origin: top left;
+}
+
+/* ---------------- INDIVIDUAL OUTFIT PIECES ---------------- */
+
+.base {
+  top: calc(340px * var(--scale));
+  left: calc(670px * var(--scale));
+  width: calc(189px * var(--scale));
+  z-index: 1;
+}
+
+.jersey {
+  top: calc(168px * var(--scale));
+  left: calc(1209px * var(--scale));
+  width: calc(219px * var(--scale));
+  z-index: 4;
+}
+
+.fitness {
+  top: calc(290px * var(--scale));
+  left: calc(1270px * var(--scale));
+  width: calc(232px * var(--scale));
+  z-index: 4;
+}
+
+.pants {
+  top: calc(478px * var(--scale));
+  left: calc(1270px * var(--scale));
+  width: calc(150px * var(--scale));
+  transform: rotate(3deg);
+  z-index: 3;
+}
+
+.DOOM {
+  top: calc(249px * var(--scale));
+  left: calc(514px * var(--scale));
+  width: calc(76px * var(--scale));
+  z-index: 2;
+}
+
+.BOOT1 {
+  top: calc(414px * var(--scale));
+  left: calc(362px * var(--scale));
+  width: calc(76px * var(--scale));
+  transform: rotate(4deg);
+  z-index: 2;
+}
+
+.BOOT2 {
+  top: calc(414px * var(--scale));
+  left: calc(333px * var(--scale));
+  width: calc(76px * var(--scale));
+  transform: scaleX(-1) rotate(20deg);
+  z-index: 2;
+}
+
+.SURYAHEAD {
+  top: calc(169px * var(--scale));
+  left: calc(151px * var(--scale));
+  width: calc(76px * var(--scale));
+  z-index: 2;
+}
+
+.brownshorts {
+  top: calc(356px * var(--scale));
+  left: calc(196px * var(--scale));
+  width: calc(151px * var(--scale));
+  z-index: 2;
+}
+
+.blackpants {
+  top: calc(560px * var(--scale));
+  left: calc(685px * var(--scale));
+  width: calc(162px * var(--scale));
+  z-index: 2;
+}
+
+.SUIT {
+  top: calc(64px * var(--scale));
+  left: calc(1058px * var(--scale));
+  width: calc(226px * var(--scale));
+  z-index: 5;
+}
+
+.room {
+  top: calc(142px * var(--scale));
+  left: calc(302px * var(--scale));
+  width: calc(907px * var(--scale));
+  z-index: 0;
+}
+
+.phool {
+  top: calc(89px * var(--scale));
+  left: calc(76px * var(--scale));
+  width: calc(604px * var(--scale));
+  z-index: -1;
+}
+
+.phool2 {
+  top: calc(89px * var(--scale));
+  left: calc(983px * var(--scale));
+  width: calc(604px * var(--scale));
+  z-index: -1;
+}
+
+.ytskrt {
+  top: calc(356px * var(--scale));
+  left: calc(91px * var(--scale));
+  width: calc(166px * var(--scale));
+  z-index: 2;
+}
+
+.bluekurta {
+  top: calc(240px * var(--scale));
+  left: calc(60px * var(--scale));
+  width: calc(216px * var(--scale));
+  z-index: 3;
+}
+
+.blackkurta {
+  top: calc(196px * var(--scale));
+  left: calc(151px * var(--scale));
+  width: calc(209px * var(--scale));
+  transform: rotate(1deg);
+  z-index: 3;
+}
+
+.champ {
+  top: calc(156px * var(--scale));
+  left: calc(151px * var(--scale));
+  width: calc(212px * var(--scale));
+  transform: rotate(85deg);
+  z-index: 6;
+}
+
+.topi {
+  top: calc(146px * var(--scale));
+  left: calc(212px * var(--scale));
+  width: calc(45px * var(--scale));
+  transform: rotate(5deg);
+  z-index: 6;
+}
+
+.furry {
+  top: calc(401px * var(--scale));
+  left: calc(1104px * var(--scale));
+  width: calc(88px * var(--scale));
+  transform: rotate(7deg);
+  z-index: 1;
+}
+
+.furry2 {
+  top: calc(401px * var(--scale));
+  left: calc(1058px * var(--scale));
+  width: calc(88px * var(--scale));
+  transform: scaleX(-1) rotate(7deg);
+  z-index: 1;
+}
+
+
+/* ---------------------- DHRUV SECTION (MATCHES OUTFIT SYSTEM) ---------------------- */
+
+.DHRUV {
+  position: relative;
+  width: calc(var(--design-width) * 1px * var(--scale));
+  height: calc(2000px * var(--scale)); /* taller collage, same width grid */
+  margin: 0 auto;
+  top: calc(2200px * var(--scale));
+  z-index: 4;
+}
+.DHRUV img,
+.DHRUV p {
+  position: absolute;
+  transform-origin: top left;
+  display: block;
+}
+
+/* ------------------ IMAGES ------------------ */
+
+.DHRUVONE {
+  top: calc(0px * var(--scale));
+  left: calc(0px * var(--scale));
+  width: calc(1150px * var(--scale));
+  z-index: 0;
+}
+
+/* DHRUVTWO = right-top portrait */
+.DHRUVTWO {
+  top: calc(470px * var(--scale));
+  left: calc(1150px * var(--scale));
+  width: calc(360px * var(--scale));
+}
+
+/* Middle horizontal image */
+.DHRUVTHREE {
+  top: calc(1045px * var(--scale));
+  left: calc(0px * var(--scale));
+  width: calc(1040px * var(--scale));
+}
+
+/* Lower-right portrait */
+.DHRUVFOUR {
+  top: calc(1010px * var(--scale));
+  left: calc(1039px * var(--scale));
+  width: calc(500px * var(--scale));
+}
+
+/* Lower-right smallest */
+.DHRUVFIVE {
+  top: calc(1300px * var(--scale));
+  left: calc(1000px * var(--scale));
+  width: calc(600px * var(--scale));
+}
+
+/* ------------------ TEXT ------------------ */
+
+.DHRUVmini {
+  top: calc(920px * var(--scale));
+  left: calc(120px * var(--scale));
+  font-size: calc(55px * var(--scale));
+  color: white;
+  z-index: 2;
+}
+
+.DHRUVdescription {
+  top: calc(900px * var(--scale));
+  left: calc(150px * var(--scale));
+  font-size: calc(115px * var(--scale));
+  color: white;
+  z-index: 5;
+}
+

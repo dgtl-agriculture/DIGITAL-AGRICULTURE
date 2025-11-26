@@ -316,8 +316,8 @@ body {
 }
 .blackpants{
   position:absolute;
-  top: 73.5vh;
-  left: 44vw;
+  top: 70vh;
+  left: 43.9vw;
   display: flex;
   width:10.3vw; 
   z-index: 2;
@@ -429,19 +429,17 @@ body {
 
 /* DHRUV container */
 .DHRUV {
-  position: absolute;   /* relative to page */
-  width: 100%;          /* container takes full width of page */
-  max-width: 1500px;    /* optional max width */
-  height: 1500px;       /* adjust as needed */
+  position: absolute;   
+  width: 100%;         
+  max-width: 1800px;   
+  height: 1500px;       
+  top: 333%;  
+  left:40%; 
   
-  /* set the starting position of the container */
-  top: 333%;   /* change this to move vertically */
-  left:40%;  /* change this to move horizontally */
-  
-  transform: translate(-50%, -50%); /* centers container on top/left point */
+  transform: translate(-50%, -50%); 
 }
 
-/* Image wrappers inside DHRUV */
+/* Image wrappers inside DHRUV object */
 .DHRUVONE,
 .DHRUVTWO,
 .DHRUVTHREE,
@@ -450,38 +448,37 @@ body {
   position: absolute;
 }
 
-/* Example positions converted to percentages (relative to container) */
 .DHRUVONE {
   top: 2%;
   left: 0%;
-  width: 100%;
+  width: 83%;
 }
 
 .DHRUVTWO {
   top: 2%;
-  left: 85%;
+  left: 83%;
   width: 40%;
 }
 
 .DHRUVTHREE {
-  top: 52%;
-  left: 0%;
-  width: 90%;
+  top: 40%;
+  left: 1%;
+  width: 82%;
 }
 
 .DHRUVFOUR {
   top: 62%;
-  left: 90%;
-  width: 35%;
+  left: 83%;
+  width: 30%;
 }
 
 .DHRUVFIVE {
-  top: 82%;
-  left: 90%;
-  width: 35%;
+  top: 80%;
+  left: 80%;
+  width: 30%;
 }
 
-/* Make images scale with container */
+/*scale with container */
 .DHRUVONE img,
 .DHRUVTWO img,
 .DHRUVTHREE img,
@@ -492,22 +489,22 @@ body {
   display: block;
 }
 
-/* Text inside DHRUV */
+/* This is dhruv */
 .DHRUVmini {
   position: absolute;
-  top: 45%;
-  left: 6%;
-  font-size: 2.5vw; 
-  color: azure;
+  top: 32%;
+  left: 11%;
+  font-size: 3.5vw; 
+  color: rgb(250, 255, 255);
   z-index: 5;
 }
 
 .DHRUVdescription {
   position: absolute;
-  top: 41%;
-  left: 8%;
+  top:32%;
+  left: 10%;
   font-size: 6vw; 
-  color: azure;
+  color: rgb(255, 255, 255);
   z-index: 5;
 }
 
