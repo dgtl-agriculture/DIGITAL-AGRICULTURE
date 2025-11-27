@@ -158,7 +158,7 @@ body {
   top: 75vh;
   left: 58.5vw;
   width:40vw;
-  z-index: 4;
+  z-index: 2;
 }
 .craft{
   position:absolute;
@@ -172,7 +172,7 @@ body {
   top: 80vh;
   left: 15vw;
   width:auto;
-  height:40vh;
+  height:37vh;
   transform: rotate(-10deg);
   z-index: 5;
 }
@@ -190,6 +190,22 @@ body {
   height:15vw;
   transform: rotate(-10deg);
   z-index: 5;
+}
+.sign{
+  position:absolute;
+  top: 117vh;
+  left: 15vw;
+  height:15vw;
+  transform: rotate(-10deg);
+  z-index: 5;
+}
+.epit{
+  position:absolute;
+  top: 72vh;
+  left: 75vw;
+  height:15vw;
+  transform: rotate(10deg);
+  z-index: 4;
 }
 .seeriyan{
   position:absolute;
@@ -219,12 +235,29 @@ body {
   height:25vw;
   z-index: 5;
 }
+.runa{
+  position:absolute;
+  top: 80vh;
+  left: 90vw;
+  width:10vw;
+  z-index: 5;
+}
+.sting{
+  position:absolute;
+  top: 137vh;
+  left: 85vw;
+  width:5vw;
+  z-index: 4;
+  rotate:10deg;
+}
+
 
 /* WEBAMP */
 .WEBAMPsHIZ{
   position: absolute;
   top: 135vh;
-  left: 40vw;
+  left: 45vw;
+  height: 10vh;
   z-index:5
 }
 
@@ -280,12 +313,12 @@ body {
 .fitness {
   top: calc(290px * var(--scale));
   left: calc(1270px * var(--scale));
-  width: calc(232px * var(--scale));
+  width: calc(228px * var(--scale));
   z-index: 4;
 }
 
 .pants {
-  top: calc(478px * var(--scale));
+  top: calc(628px * var(--scale));
   left: calc(1270px * var(--scale));
   width: calc(150px * var(--scale));
   transform: rotate(3deg);
@@ -293,14 +326,14 @@ body {
 }
 
 .DOOM {
-  top: calc(249px * var(--scale));
+  top: calc(430px * var(--scale));
   left: calc(514px * var(--scale));
   width: calc(76px * var(--scale));
   z-index: 2;
 }
 
 .BOOT1 {
-  top: calc(414px * var(--scale));
+  top: calc(714px * var(--scale));
   left: calc(362px * var(--scale));
   width: calc(76px * var(--scale));
   transform: rotate(4deg);
@@ -308,23 +341,23 @@ body {
 }
 
 .BOOT2 {
-  top: calc(414px * var(--scale));
-  left: calc(333px * var(--scale));
+  top: calc(714px * var(--scale));
+  left: calc(383px * var(--scale));
   width: calc(76px * var(--scale));
   transform: scaleX(-1) rotate(20deg);
   z-index: 2;
 }
 
 .SURYAHEAD {
-  top: calc(169px * var(--scale));
-  left: calc(151px * var(--scale));
+  top: calc(120px * var(--scale));
+  left: calc(310px * var(--scale));
   width: calc(76px * var(--scale));
   z-index: 2;
 }
 
 .brownshorts {
-  top: calc(356px * var(--scale));
-  left: calc(196px * var(--scale));
+  top: calc(626px * var(--scale));
+  left: calc(66px * var(--scale));
   width: calc(151px * var(--scale));
   z-index: 2;
 }
@@ -337,8 +370,8 @@ body {
 }
 
 .SUIT {
-  top: calc(64px * var(--scale));
-  left: calc(1058px * var(--scale));
+  top: calc(364px * var(--scale));
+  left: calc(1258px * var(--scale));
   width: calc(226px * var(--scale));
   z-index: 5;
 }
@@ -365,8 +398,8 @@ body {
 }
 
 .ytskrt {
-  top: calc(356px * var(--scale));
-  left: calc(91px * var(--scale));
+  top: calc(606px * var(--scale));
+  left: calc(191px * var(--scale));
   width: calc(166px * var(--scale));
   z-index: 2;
 }
@@ -374,16 +407,16 @@ body {
 .bluekurta {
   top: calc(240px * var(--scale));
   left: calc(60px * var(--scale));
-  width: calc(216px * var(--scale));
+  width: calc(220px * var(--scale));
   z-index: 3;
 }
 
 .blackkurta {
-  top: calc(196px * var(--scale));
+  top: calc(396px * var(--scale));
   left: calc(151px * var(--scale));
-  width: calc(209px * var(--scale));
+  width: calc(215px * var(--scale));
   transform: rotate(1deg);
-  z-index: 3;
+  z-index: 4;
 }
 
 .champ {
@@ -403,7 +436,7 @@ body {
 }
 
 .furry {
-  top: calc(401px * var(--scale));
+  top: calc(701px * var(--scale));
   left: calc(1104px * var(--scale));
   width: calc(88px * var(--scale));
   transform: rotate(7deg);
@@ -411,8 +444,8 @@ body {
 }
 
 .furry2 {
-  top: calc(401px * var(--scale));
-  left: calc(1058px * var(--scale));
+  top: calc(701px * var(--scale));
+  left: calc(1098px * var(--scale));
   width: calc(88px * var(--scale));
   transform: scaleX(-1) rotate(7deg);
   z-index: 1;
