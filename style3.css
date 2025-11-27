@@ -249,7 +249,7 @@ body {
   margin: 0 auto;
   width: calc(var(--design-width) * 1px * var(--scale));
   height: calc(var(--design-height) * 1px * var(--scale));
-  top: 150vh;
+  top: 160vh;
 }
 
 /* Universal rules for outfit images */
@@ -419,14 +419,15 @@ body {
 }
 
 
-/* ---------------------- DHRUV SECTION (MATCHES OUTFIT SYSTEM) ---------------------- */
+/* ---------------------- DHRUV -------------------- */
 
 .DHRUV {
   position: relative;
   width: calc(var(--design-width) * 1px * var(--scale));
   height: calc(2000px * var(--scale)); /* taller collage, same width grid */
   margin: 0 auto;
-  top: calc(2200px * var(--scale));
+  /* top: calc(2200px * var(--scale)); */
+  top: 210vh;
   z-index: 4;
 }
 .DHRUV img,
@@ -435,48 +436,37 @@ body {
   transform-origin: top left;
   display: block;
 }
-
-/* ------------------ IMAGES ------------------ */
-
 .DHRUVONE {
   top: calc(0px * var(--scale));
   left: calc(0px * var(--scale));
   width: calc(1150px * var(--scale));
-  z-index: 0;
 }
-
-/* DHRUVTWO = right-top portrait */
 .DHRUVTWO {
-  top: calc(470px * var(--scale));
+  top: calc(0px * var(--scale));
   left: calc(1150px * var(--scale));
-  width: calc(360px * var(--scale));
+  width: calc(380px * var(--scale));
 }
 
-/* Middle horizontal image */
 .DHRUVTHREE {
-  top: calc(1045px * var(--scale));
-  left: calc(0px * var(--scale));
+  top: calc(572px * var(--scale));
+  left: calc(550px * var(--scale));
   width: calc(1040px * var(--scale));
 }
 
-/* Lower-right portrait */
 .DHRUVFOUR {
-  top: calc(1010px * var(--scale));
-  left: calc(1039px * var(--scale));
-  width: calc(500px * var(--scale));
+  top: calc(575px * var(--scale));
+  left: calc(0px * var(--scale));
+  width: calc(550px * var(--scale));
 }
 
-/* Lower-right smallest */
 .DHRUVFIVE {
-  top: calc(1300px * var(--scale));
-  left: calc(1000px * var(--scale));
+  top: calc(900px * var(--scale));
+  left: calc(0px * var(--scale));
   width: calc(600px * var(--scale));
 }
 
-/* ------------------ TEXT ------------------ */
-
 .DHRUVmini {
-  top: calc(920px * var(--scale));
+  top: calc(470px * var(--scale));
   left: calc(120px * var(--scale));
   font-size: calc(55px * var(--scale));
   color: white;
@@ -484,10 +474,61 @@ body {
 }
 
 .DHRUVdescription {
-  top: calc(900px * var(--scale));
+  top: calc(450px * var(--scale));
   left: calc(150px * var(--scale));
   font-size: calc(115px * var(--scale));
   color: white;
   z-index: 5;
 }
 
+/* EXTRA BG  */
+.extrabg{
+  position: relative;
+  top: 20vh;
+  left: 0vw;
+  display: flex;
+}
+.maaloom{
+  position: absolute;
+  top: 0vh;
+  left: 60vw;
+  font-size: 10vw;
+  height: auto;
+  z-index: 0;
+  transform: rotate(90deg);
+  white-space: nowrap;
+  overflow: hidden;
+  color: rgb(89, 71, 254);
+}
+.alag{
+  position: absolute;
+  top: 0vh;
+  left: 60vw;
+  font-size: 7vw;
+  height: auto;
+  z-index: 0;
+  transform: rotate(90deg);
+  white-space: nowrap;
+  overflow: hidden;
+  color: rgb(128, 114, 249);
+}
+.mulzim{
+  position: absolute;
+  top: 10vh;
+  left: -15vw;
+  font-size: 12vw;
+  height: auto;
+  z-index: 0;
+  transform: rotate(-90deg);
+  color: rgba(162, 22, 0, 0.744);
+}
+.anokha{
+  position: absolute;
+  top: 10vh;
+  left: -18vw;
+  font-size: 7vw;
+  height: auto;
+  z-index: 0;
+  transform: rotate(-90deg);
+  color: rgba(225, 31, 2, 0.744);
+}
