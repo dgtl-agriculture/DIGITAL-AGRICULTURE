@@ -261,11 +261,9 @@ body {
   z-index:5
 }
 
-/* ---------------------- OUTFIT SECTION (RESPONSIVE, LOCKED GEOMETRY) ---------------------- */
-
-/* Your design's native resolution */
+/* ---------------------- OUTFIT SECTION  LOCKED GEOMETRY ---------------------- */
 :root {
-  --design-width: 1512;
+  --design-width: 1512; /* for macbook */
   --design-height: 445;
   --scale: 1;
 }
@@ -285,7 +283,7 @@ body {
   top: 160vh;
 }
 
-/* Universal rules for outfit images */
+/* Universal rules for outfit */
 .OUTFIT img {
   position: absolute;
   display: block;
@@ -294,7 +292,7 @@ body {
   transform-origin: top left;
 }
 
-/* ---------------- INDIVIDUAL OUTFIT PIECES ---------------- */
+/* ---------------- INDIVIDUAL CLOTHES ---------------- */
 
 .base {
   top: calc(340px * var(--scale));
@@ -304,22 +302,22 @@ body {
 }
 
 .jersey {
-  top: calc(168px * var(--scale));
-  left: calc(1209px * var(--scale));
+  top: calc(578px * var(--scale));
+  left: calc(1309px * var(--scale));
   width: calc(219px * var(--scale));
   z-index: 4;
 }
 
 .fitness {
   top: calc(290px * var(--scale));
-  left: calc(1270px * var(--scale));
+  left: calc(1100px * var(--scale));
   width: calc(228px * var(--scale));
   z-index: 4;
 }
 
 .pants {
   top: calc(628px * var(--scale));
-  left: calc(1270px * var(--scale));
+  left: calc(1220px * var(--scale));
   width: calc(150px * var(--scale));
   transform: rotate(3deg);
   z-index: 3;
@@ -344,7 +342,7 @@ body {
   top: calc(714px * var(--scale));
   left: calc(383px * var(--scale));
   width: calc(76px * var(--scale));
-  transform: scaleX(-1) rotate(20deg);
+  transform: scaleX(-1) rotate(4deg);
   z-index: 2;
 }
 
@@ -354,7 +352,26 @@ body {
   width: calc(76px * var(--scale));
   z-index: 2;
 }
-
+.aHa{
+  top: calc(470px * var(--scale));
+  left: calc(1110px * var(--scale));
+  width: calc(186px * var(--scale));
+  z-index: 2;
+}
+.hotline{
+  top: calc(150px * var(--scale));
+  left: calc(-270px * var(--scale));
+  width: calc(455px * var(--scale));
+  z-index: 10;
+  transform: rotate(-4deg);
+}
+.blonde{
+  top: calc(350px * var(--scale));
+  left: calc(-270px * var(--scale));
+  width: calc(455px * var(--scale));
+  z-index: 10;
+  transform: rotate(0deg);
+}
 .brownshorts {
   top: calc(626px * var(--scale));
   left: calc(66px * var(--scale));
@@ -403,10 +420,15 @@ body {
   width: calc(166px * var(--scale));
   z-index: 2;
 }
-
+.flair{
+  top: calc(40px * var(--scale));
+  left: calc(1191px * var(--scale));
+  width: calc(550px * var(--scale));
+  z-index: 5;
+}
 .bluekurta {
-  top: calc(240px * var(--scale));
-  left: calc(60px * var(--scale));
+  top: calc(210px * var(--scale));
+  left: calc(160px * var(--scale));
   width: calc(220px * var(--scale));
   z-index: 3;
 }
