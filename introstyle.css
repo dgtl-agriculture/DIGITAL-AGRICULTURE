@@ -1,0 +1,91 @@
+body {
+    background-color: #830303;
+    color: black;
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;}
+.parent{
+    position: relative;
+    left: 0vw;
+    top: 0vh;
+}
+
+.s1{
+  position: absolute;
+    color:black;
+    left: 30vw;
+    top: 30vh;
+    font-size: 1.5vw;
+    font-weight: 900;
+}
+.s2 {
+    position: absolute;
+    color: black;
+    left: 30vw;
+    top: 40vh;
+    font-size: 1.5vw;
+}
+.s3 {
+    position: absolute;
+    color: black;
+    left: 33vw;
+    top: 50vh;
+    font-size: 1.5vw;
+}
+.s4 {
+    position: absolute;
+    color: black;
+    left: 36vw;
+    top: 60vh;
+    font-size: 1.5vw;
+}
+.s5 {
+    position: absolute;
+    color: black;
+    left: 38vw;
+    top: 70vh;
+    font-size: 1.5vw;
+}
+.s6 {
+    position: absolute;
+    color: black;
+    left: 31vw;
+    top: 80vh;
+    font-size: 1.5vw;
+}
+.s7 {
+    position: absolute;
+    color: black;
+    left: 33vw;
+    top: 84vh;
+    font-size: 1.5vw;
+}
+.d{
+    position: absolute;
+    color: black;
+    left: 1vw;
+    top: 0vh;
+    font-size: 15vw;
+    margin: 0;
+    letter-spacing: 5vw;
+    font-weight: 800;
+}
+.ag{
+    position: absolute;
+    color: black;
+    left: -2vw;
+    top: 40vh;
+    font-size: 28vw;
+    font-weight: 800;
+    rotate: -90deg;
+    margin: 0;
+    letter-spacing: 2vh;
+}
+.opening{
+    position: absolute;
+        left: 3vw;
+        top: 20vh;
+        margin: 0;
+        z-index: 2;
+        width: 15vw;
+}

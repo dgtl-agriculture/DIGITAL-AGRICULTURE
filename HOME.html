@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGITALAGRICULTURE</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+              const undraggableClasses = ["BANNER", "temple", "base", "room", "phool", "phool2"];
+              const images = document.querySelectorAll(".COLLAGEparent img, .OUTFIT img");
+      
+              images.forEach(img => {
+      
+          
+              if (undraggableClasses.some(cls => img.classList.contains(cls))) {return; }
+      
+          let offsetX = 0;
+          let offsetY = 0;
+          let isDragging = false;
+      
+          const parent = img.closest(".COLLAGEparent, .OUTFIT");
+          parent.style.position = "relative";
+      
+          img.style.position = "absolute";
+          img.style.cursor = "grab";
+          img.style.userSelect = "none";
+          img.draggable = false;
+      
+          img.addEventListener("pointerdown", e => {
+            e.preventDefault();
+            isDragging = true;
+            img.setPointerCapture(e.pointerId);
+      
+            img.style.cursor = "grabbing";
+            img.style.zIndex = 1000;
+      
+            const rect = img.getBoundingClientRect();
+            offsetX = e.clientX - rect.left;
+            offsetY = e.clientY - rect.top;
+          });
+      
+          img.addEventListener("pointermove", e => {
+            if (!isDragging) return;
+      
+            const parentRect = parent.getBoundingClientRect();
+            let newLeft = e.clientX - parentRect.left - offsetX;
+            let newTop = e.clientY - parentRect.top - offsetY;
+      
+            img.style.left = `${newLeft}px`;
+            img.style.top = `${newTop}px`;
+          });
+      
+          img.addEventListener("pointerup", e => {
+            if (isDragging) {
+              isDragging = false;
+              img.style.cursor = "grab";
+              img.style.zIndex = "";
+              img.releasePointerCapture(e.pointerId);
+            }
+          });
+        });
+      });
+      </script>
+
+  </head>
+
+  <body>
+    <div class="borderparent">
+      <img src="pics/borderlonghorz.png" class='bordhorz'>
+      <img src="pics/borderlonghorz.png" class='bordhorz2'>
+      <img src="pics/borderlonghorz.png" class='bordhorz3'>
+      <img src="pics/borderlongvertleft.png" class='bordvert'>
+      <img src="pics/borderlongvertleft.png" class='bordvert2'>
+      <img src="pics/borderlongvertleft.png" class='bordvert3'>
+      <img src="pics/borderlongvertleft.png" class='bordvert4'>
+      <img src="pics/borderlongvertleft.png" class='bordvert5'>
+      <img src="pics/borderlongvertright.png" class='bordvertr'>
+      <img src="pics/borderlongvertright.png" class='bordvertr2'>
+      <img src="pics/borderlongvertright.png" class='bordvertr3'>
+      <img src="pics/borderlongvertright.png" class='bordvertr4'>
+      <img src="pics/borderlongvertright.png" class='bordvertr5'>
+    </div>
+
+    <div class="poetryparent">
+      <a href="https://lifafa.bandcamp.com/album/jaago" target="_blank"><img src="pics/JJGred.png" class="JJG"></a>
+      <img src="pics/MJRH.png" class='MJRH'>
+      <img src="pics/BP.png" class='BP'>
+      <img src="pics/NKS.png" class='NKS'>
+      <img src="pics/NKSR.png" class='NKSR'>
+      <img src="pics/JBS.png" class='JBS'>
+      <img src="pics/TKD.png" class='TKD'>
+      <img src="pics/mha.png" class='MHA'>
+      <a href="https://www.poetryfoundation.org/poetrymagazine/poems/154658/fuck-your-lecture-on-craft-my-people-are-dying" target="_blank">
+      <img src="pics/fullsize.png" class="craft"> </a> 
+    </div>
+
+    <div class='ARTparent' id="ABC">
+      <a href="ARTPAGE.html" target="_blank"><img src="pics/cyanotyping.png" class="ARTOND"></a> 
+      <img src="pics/b.jpeg" class='BORDER'>
+      <img src="pics/b.jpeg" class='BORDER2'>
+    </div>
+
+    <div class='COLLAGEparent'>
+
+      <img src="pics/jamal fairy.png" class="faiwy">
+      <img src="pics/DIVVY.png" class="divv">
+      <img src="pics/KAPRAIN.png" class='bachat'>
+      <img src="pics/nani.png" class="nani">
+      <img src="pics/seeriyan.png" class="seeriyan">
+      <img src="pics/zebu.png" class="zebu">
+      <img src="pics/BANNER3.png" class="BANNER">
+      <img src="pics/runa.png" class="runa">
+      <img src="pics/sting.png" class="sting">
+      <img src="pics/khibrothert.png" class="sign">
+      <img src="pics/epitome.png" class="epit">
+      <img src="pics/Untitled.gif" class="aishu">
+      <a href="blownup.html"><img src="pics/temple.png" class="temple"></a>
+      
+    </div>
+
+  <div class='OUTFIT'>
+    <img src="fits/base2.png" class="base">
+    <img src="fits/jersey.png" class='jersey'>
+    <img src="fits/fitness.png" class="fitness">
+    <img src="fits/DOOM.png" class="DOOM">
+    <img src="fits/thechampishere.png" class="aHa">
+    <img src="fits/COWBOOTS.png" class="BOOT1">
+    <img src="fits/COWBOOTS.png" class="BOOT2">
+    <img src="fits/jaagohead.png" class="SURYAHEAD">
+    <img src="fits/shortsbrown.png" class="brownshorts">
+    <img src="fits/hotline.png" class="hotline">
+    <img src="fits/blonde.png" class="blonde">
+    <img src="fits/black pants.png" class="blackpants">
+    <img src="fits/WOOOOOO.png" class="flair">
+    <img src="fits/room3.png" class="room"> 
+    <img src="fits/phool.png" class="phool"> 
+    <img src="fits/phool.png" class="phool2"> 
+    <img src="fits/bleukurta.png" class="bluekurta"> 
+    <img src="fits/whitskirt.png" class="ytskrt"> 
+    <img src="fits/blackkurta.png" class="blackkurta"> 
+    <img src="fits/carhartts2.png" class="pants"> 
+    <img src="fits/BELT.png" class="champ"> 
+    <img src="fits/SUIT.png" class="SUIT"> 
+    <img src="fits/furry.png" class="furry"> 
+    <img src="fits/furry.png" class="furry2"> 
+    <img src="fits/hellok.png" class="topi"> 
+
+  </div>
+
+  <div class='DHRUV'>
+    <img src="dhruv/3.jpeg" class="DHRUVONE">
+    <img src="dhruv/5.jpeg" class="DHRUVTWO">
+    <img src="dhruv/6.jpeg" class="DHRUVTHREE">
+    <img src="dhruv/4.jpeg" class="DHRUVFOUR">
+    <img src="dhruv/9.jpeg" class="DHRUVFIVE">
+    <p class="DHRUVmini">উনি</p>
+    <p class="DHRUVdescription">ধ্রুব অগ্রবাল  </p>
+  </div>
+
+  <div class = 'extrabg'>
+    <p class="maaloom"> مجھے نہیں معلوم</p>
+    <p class="mulzim"> میں ملزم نہیں</p>
+    <p class="alag"> سب کے لیے کچھ الگ</p>
+    <p class="anokha"> سب کے لیے کچھ انوکھا </p>
+
+  </div>
+
+  <!--  WEB AMP START -->
+  <div id="app" class="WEBAMPsHIZ"> </div>
+  <script type="module">
+    import Webamp from "https://unpkg.com/webamp@^2";
+    const webamp = new Webamp({
+  initialTracks: [
+  {url: "trax/BAARO MAALA.mp3",
+    metaData: { artist: "EXCISE DEPT.", title: "TRACK 1"},
+    duration: 300},
+    {url: "trax/FRESS.mp3",
+    metaData: { artist: "LIT TRUST", title: "TRACK 2"},
+    duration: 300},
+    {url: "trax/Ek Shaneesh.mp3",
+    metaData: { artist: "DAS RACIST", title: "TRACK 3"},
+    duration: 300},
+    {url: "trax/FUCKJERRY.mp3",
+    metaData: { artist: "bunnyboo", title: "TRACK 4"},
+    duration: 300},
+    {url: "trax/Mausambi Drip.mp3",
+    metaData: { artist: "DHANJI", title: "TRACK 5"},
+    duration: 300},
+                  ], 
+    zIndex: 11,
+    initialSkin: { url: "pics/Smooth_Blue_Chrome.wsz" },
+    }); 
+    webamp.renderWhenReady(document.getElementById("app")).then(() => {
+    setTimeout(() => {window.scrollTo(0, 0);}, 100);});
+  </script>
+  <!-- WEB AMP END -->
+
+
+  <!-- <div class='scroll'>
+    <img src="pics/WAPZ.png" class="SCROLL">
+  </div> -->
+
+
+  </body>
+</html>

@@ -25,8 +25,8 @@ body {
 /* AUG2025 */
 .AUG2025parent{
     position: relative;
-    top: 50vh;
-    left: 13vw;
+    top: 42vh;
+    left: 33vw;
     display: flex;
 
 }
@@ -61,4 +61,68 @@ body {
     font-optical-sizing: auto;
     font-size: 1.2vw;
     color:#0008ED;
+}
+.aug2025date{
+    position: absolute;
+    width: 20vw;
+    top: 47vh;
+    left: 0.58vw;
+
+    font-family: "Cossette Titre", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.2vw;
+    color: #383838;
+}
+
+/* AUG2025 */
+.JAN2026parent {
+    position: relative;
+    top: 50vh;
+    left: 13vw;
+    display: flex;
+
+}
+
+.jan2026 {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    width: 16vw;
+    height: 40vh;
+    margin: 0;
+    padding: 0;
+}
+
+.jan2026d {
+    position: absolute;
+    width: 20vw;
+    top: 39vh;
+    left: 0.6vw;
+    font-family: "Epunda Slab", serif;
+    font-optical-sizing: auto;
+    font-size: 1.1vw;
+    color: #d90101c5;
+}
+
+.jan2026signature {
+    position: absolute;
+    width: 20vw;
+    top: 43vh;
+    left: 0.58vw;
+
+    font-family: "Cossette Titre", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.2vw;
+    color: #0008ED;
+}
+.jan2026date{
+    position: absolute;
+    width: 20vw;
+    top: 45vh;
+    left: 0.58vw;
+
+    font-family: "Cossette Titre", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 1.2vw;
+    color: #383838;
 }
