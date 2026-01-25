@@ -135,20 +135,40 @@ body {
   left: 2vw;
 }
 
+/* BANNER */
+.BANNERB {
+  position: absolute;
+  top: 0vh;
+  left: 3vw;
+  display: flex;
+  width: 15vw;
+  height: 13vh;
+  z-index: 0;
+}
+.BANNERA {
+  position: absolute;
+  top: 0vh;
+  left: 3vw;
+  display: flex;
+  width: 20vw;
+  height: 13vh;
+  z-index: 0;
+}
+.BANNERC {
+  position: absolute;
+  top: 0vh;
+  left: 3vw;
+  display: flex;
+  width: 25vw;
+  height: 13vh;
+  z-index: 0;
+}
 /* ------------------------- COLLAGE --------------------- */
 .COLLAGEparent{
   position:relative;
   top: 0vh;
   left: 0vw;
   display: flex;
-}
-.BANNER{
-  position:absolute;
-  top: 0vh;
-  left: 0vw;
-  display: flex;
-  width:24vw;
-
 }
 .bachat{
   position:absolute;
@@ -172,6 +192,14 @@ body {
   height:37vh;
   transform: rotate(-10deg);
   z-index: 5;
+}
+
+.xareen{
+    position: absolute;
+    top: 112vh;
+    left: 45vw;
+    width: 20vw;
+    z-index: 5;
 }
 .nani{
   position:absolute;
