@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DIGITALAGRICULTURE</title>
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Ultra&display=swap" rel="stylesheet">
     <script>
       document.addEventListener("DOMContentLoaded", () => {
               const undraggableClasses = ["BANNER", "temple", "base", "room", "phool", "phool2"];
@@ -65,6 +67,82 @@
       </script>
 
 
+  <script type="module">
+    import Webamp from "https://unpkg.com/webamp@^2";
+    const webamp = new Webamp({
+      initialTracks: [
+        {
+          url: "trax/BAARO MAALA.mp3",
+          metaData: { artist: "EXCISE DEPT.", title: "TRACK 1" },
+          duration: 300
+        },
+        {
+          url: "trax/FRESS.mp3",
+          metaData: { artist: "LIT TRUST", title: "TRACK 2" },
+          duration: 300
+        },
+        {
+          url: "trax/Ek Shaneesh.mp3",
+          metaData: { artist: "DAS RACIST", title: "TRACK 3" },
+          duration: 300
+        },
+        {
+          url: "trax/FUCKJERRY.mp3",
+          metaData: { artist: "bunnyboo", title: "TRACK 4" },
+          duration: 300
+        },
+        {
+          url: "trax/Mausambi Drip.mp3",
+          metaData: { artist: "DHANJI", title: "TRACK 5" },
+          duration: 300
+        },
+      ],
+      zIndex: 11,
+      initialSkin: { url: "pics/Smooth_Blue_Chrome.wsz" },
+    });
+    webamp.renderWhenReady(document.getElementById("app")).then(() => {
+      setTimeout(() => { window.scrollTo(0, 0); }, 2000);
+    });
+  </script>
+
+
+<script>
+
+      $(switchBackground);
+        var oFReader = new FileReader(),
+          rFilter =
+            /^(?:image\/bmp|image\/cis\-cod|image\/gif|image\/ief|image\/jpeg|image\/jpeg|image\/jpeg|image\/pipeg|image\/png|image\/svg\+xml|image\/tiff|image\/x\-cmu\-raster|image\/x\-cmx|image\/x\-icon|image\/x\-portable\-anymap|image\/x\-portable\-bitmap|image\/x\-portable\-graymap|image\/x\-portable\-pixmap|image\/x\-rgb|image\/x\-xbitmap|image\/x\-xpixmap|image\/x\-xwindowdump)$/i;
+
+        oFReader.onload = function (oFREvent) {
+          localStorage.setItem('b', oFREvent.target.result);
+          switchBackground();
+        };
+
+        function switchBackground() {
+
+          var backgroundImage = localStorage.getItem('b');
+          if (backgroundImage) {
+            $('body').css('background-image', 'url(' + backgroundImage + ')');
+          }
+          else {
+            $('body').css('background-image', 'none');
+          }
+        }
+
+        function loadImageFile(testEl) {
+          if (!testEl.files.length) { return; }
+          var oFile = testEl.files[0];
+          if (!rFilter.test(oFile.type)) { alert("You must select a valid image file!"); return; }
+          oFReader.readAsDataURL(oFile);
+        }
+
+        function removeImageFile() {
+          localStorage.removeItem('b');
+          switchBackground();
+        }
+
+</script>
+
 
   </head>
 
@@ -110,6 +188,7 @@
       <img src="pics/DIVVY.png" class="divv">
       <img src="pics/KAPRAIN.png" class='bachat'>
       <img src="pics/nani.png" class="nani">
+      <a href="https://www.youtube.com/watch?v=TbtWe8dWkYE" target="_blank"><img src="pics/veer.png" class="VEER"></a>
       <img src="pics/seeriyan.png" class="seeriyan">
       <img src="pics/zebu.png" class="zebu">
       <img src="pics/banners/DIGITALONLY.png" class="BANNERA">
@@ -174,38 +253,142 @@
 
   <!--  WEB AMP START -->
   <div id="app" class="WEBAMPsHIZ"> </div>
-  <script type="module">
-    import Webamp from "https://unpkg.com/webamp@^2";
-    const webamp = new Webamp({
-  initialTracks: [
-  {url: "trax/BAARO MAALA.mp3",
-    metaData: { artist: "EXCISE DEPT.", title: "TRACK 1"},
-    duration: 300},
-    {url: "trax/FRESS.mp3",
-    metaData: { artist: "LIT TRUST", title: "TRACK 2"},
-    duration: 300},
-    {url: "trax/Ek Shaneesh.mp3",
-    metaData: { artist: "DAS RACIST", title: "TRACK 3"},
-    duration: 300},
-    {url: "trax/FUCKJERRY.mp3",
-    metaData: { artist: "bunnyboo", title: "TRACK 4"},
-    duration: 300},
-    {url: "trax/Mausambi Drip.mp3",
-    metaData: { artist: "DHANJI", title: "TRACK 5"},
-    duration: 300},
-                  ], 
-    zIndex: 11,
-    initialSkin: { url: "pics/Smooth_Blue_Chrome.wsz" },
-    }); 
-    webamp.renderWhenReady(document.getElementById("app")).then(() => {
-    setTimeout(() => {window.scrollTo(0, 0);}, 100);});
-  </script>
-  <!-- WEB AMP END -->
+  <!--  WEB AMP end -->
 
 
-  <!-- <div class='scroll'>
-    <img src="pics/WAPZ.png" class="SCROLL">
-  </div> -->
+  <!--JOURNAL-->
+
+  <div class="GENDABORDER">
+    <img src="pics/genda.png" class='genda1'>
+    <img src="pics/genda.png" class='genda2'>
+    <img src="pics/genda.png" class='genda3'>
+    <img src="pics/genda.png" class='genda4'>
+    <img src="pics/genda.png" class='genda5'>
+    <img src="pics/genda.png" class='genda6'>
+    <img src="pics/genda.png" class='genda7'>
+    <img src="pics/genda2.png" class='genda1A'>
+    <img src="pics/genda2.png" class='genda2A'>
+    <img src="pics/genda2.png" class='genda3A'>
+    <img src="pics/genda2.png" class='genda4A'>
+    <img src="pics/genda2.png" class='genda5A'>
+    <img src="pics/genda2.png" class='genda6A'>
+    <img src="pics/genda2.png" class='genda7A'>
+  </div>
+
+<div id="JOURNAL" contenteditable="true" class="JOURNAL">
+<p class="whiteboard">i would like to take this moment to acknowledge my use of big tech filth.
+
+i currently host off github (microsoft) and use google fonts. I am planning on divesting as i learn more
+in the near future. in the meanwhile if you have any history with font development or
+website hosting be in touch <3
+
+i want to build your trust again, please write here as you wish, it goes nowhere, just on this screen and away forever when you refresh.
+take as much space as you need. here i'll start
+
+i hate fitting in somewhere I'm not from. like... where am i really from then? i hate fitting in here.</p>
+</div>
+
+<script>
+  document.getElementById("whiteboard").addEventListener('click', function (el) {
+    localStorage.setItem("text", document.getElementByClass('JOURNAL').innerHTML);
+  });
+
+  window.onload = function () {
+    var text = localStorage.getItem("text");
+    document.getElementByClass('JOURNAL').innerHTML = text;
+  }
+</script>
+
+<!-- Upload button for journal background -->
+<form action="upload.php" method="post" enctype="multipart/form-data">
+  <label for="imageUpload"></label>
+  <input type="file" id="imageUpload" name="image" accept="image/*">
+  <input type="submit" value="Upload Image">
+</form>
+
+<script>
+  // Get references to the elements
+  const fileInput = document.getElementById('imageUpload');
+  const backgroundContainer = document.getElementById('JOURNAL');
+
+  // Add an event listener to the file input
+  fileInput.addEventListener('change', function (event) {
+    const file = event.target.files[0]; // Get the selected file
+
+    if (file) {
+      // Use the FileReader API to read the file
+      const reader = new FileReader();
+
+      reader.addEventListener('load', function () {
+        // Set the background image of the container to the result of the reader (a data URL)
+        backgroundContainer.style.backgroundImage = `url('${reader.result}')`;
+      });
+      // Read the file as a data URL
+      reader.readAsDataURL(file);
+    }
+  });
+</script>
+
+<!-- JOURNAL END -->
+
+
+
+<!-- MIDI -->
+<!-- 
+<audio id="HARE1">
+  <source src="MIDI/Hare1.mp3" type="audio/mp3">
+</audio>
+<audio id="HARE2">
+  <source src="MIDI/Hare2.mp3" type="audio/mp3">
+</audio>
+<audio id="KRSNA1">
+  <source src="MIDI/krsna1.mp3" type="audio/mp3">
+</audio>
+<audio id="KRSNA2">
+  <source src="MIDI/krsna2.mp3" type="audio/mp3">
+</audio>
+<audio id="RAMA1">
+  <source src="MIDI/rama1.mp3" type="audio/mp3">
+</audio>
+<audio id="RAMA2">
+  <source src="MIDI/rama2.mp3" type="audio/mp3">
+</audio>
+<audio id="FULL1">
+  <source src="MIDI/FULL1.mp3" type="audio/mp3">
+</audio>
+<audio id="FULL2">
+  <source src="MIDI/FULL2.mp3" type="audio/mp3">
+</audio>
+
+
+<script>var x = document.getElementById("HARE1"); function playAudio() { x.play(); } </script>
+
+
+
+<button onclick="playAudio()" type="button" class="HARE1BUTTON">HARE</button>
+<button onclick="playAudioB()" type="button" class="HARE2BUTTON">HARE</button>
+<script>var x = document.getElementById("HARE2"); function playAudioB() { x.play(); } </script>
+<button onclick="playAudioC()" type="button" class="KRSNA1BUTTON">KRSNA</button>
+<script>var x = document.getElementById("KRSNA1"); function playAudioC() { x.play(); } </script> -->
+<!-- <button onclick="playAudio()" type="button" class="KRSNA2BUTTON">KRSNA</button>
+<button onclick="playAudio()" type="button" class="RAMA1BUTTON">RAMA</button>
+<button onclick="playAudio()" type="button" class="RAMA2BUTTON">RAMA</button>
+<button onclick="playAudio()" type="button" class="FULL1BUTTON">NAGMA</button>
+<button onclick="playAudio()" type="button" class="FULL2BUTTON">NAGMA</button> -->
+
+<!-- <script type="text/javascript">
+  const srcArr = ["MIDI/Hare1.mp3", "MIDI/krsna2.mp3"];
+  const audios = new Array(srcArr.length).fill(new Audio());
+  audios.forEach((audio, index) => audio.src = srcArr[index]);
+</script>
+
+<button id="HARE1BUTTON" class="HARE1BUTTON" onclick="audios[0].play();"> click me </button>
+<button id="HARE2BUTTON" class="HARE2BUTTON" onclick="audios[1].play();"> click me </button>
+<!-- END MIDI -->
+
+
+
+
 
 
   </body>

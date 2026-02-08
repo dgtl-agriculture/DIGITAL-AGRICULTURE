@@ -3,6 +3,7 @@ body {
   background-color:#0008ED ;
   color: black;
   font-family: Garamond;
+  cursor: url('divv_cursor_rot.png'), auto;
 }
 
 /* BORDER */
@@ -193,19 +194,25 @@ body {
   transform: rotate(-10deg);
   z-index: 5;
 }
-
 .xareen{
-    position: absolute;
-    top: 112vh;
-    left: 45vw;
-    width: 20vw;
-    z-index: 5;
+  position: absolute;
+  top: 114vh;
+  left: 45vw;
+  width: 20vw;
+  z-index: 5;
 }
 .nani{
   position:absolute;
   top: 100vh;
   left: 0vw;
   width:20vw;
+  z-index: 5;
+}
+.VEER {
+  position: absolute;
+  top: 146vh;
+  left: 25vw;
+  width: 13vw;
   z-index: 5;
 }
 .zebu{
@@ -619,4 +626,103 @@ body {
   top: 430vh;
   left: 20vw;
   width: 20vw;
+}
+
+/* JOURNAL + GENDA */
+.GENDABORDER{position: relative;top: 110vh;left: 0vw;}
+.genda1{position: absolute;top: 10vh;left: -10vw;z-index: 7;width: 20vw;}
+.genda2{position: absolute;top: 10vh;left: 5;z-index: 8;width: 20vw;}
+.genda3{position: absolute;top: 10vh;left: 15vw;z-index: 9;width: 20vw;}
+.genda4{position: absolute;top: 10vh;left: 25vw;z-index: 10;width: 20vw;} 
+.genda5{position: absolute;top: 10vh;left: 55vw;z-index: 11;width: 20vw;}
+.genda6{position: absolute;top: 10vh;left: 65vw;z-index: 12;width: 20vw;}
+.genda7{position: absolute;top: 10vh;left: 75vw;z-index: 13;width: 20vw;}
+.genda1A{position: absolute;top: 10vh;left: 7vw;z-index: 7;width: 20vw;}
+.genda2A{position: absolute;top: 10vh;left: 27;z-index: 8;width: 20vw;}
+.genda3A{position: absolute;top: 10vh;left: 35vw;z-index: 9;width: 25vw;}
+.genda4A{position: absolute;top: 10vh;left: 41vw;z-index: 14;width: 25vw;} 
+.genda5A{position: absolute;top: 10vh;left: 55vw;z-index: 11;width: 25vw;}
+.genda6A{position: absolute;top: 10vh;left: 60vw;z-index: 15;width: 20vw;}
+.genda7A{position: absolute;top: 10vh;left: 85vw;z-index: 19;width: 25vw;}
+
+#JOURNAL{
+  position: relative;
+  top: 155vh;
+  left: 0vw;
+  height: 60vh;
+  z-index: 5;
+  border: 1vw solid transparent;
+  background-image: url('pics/google-2009.png') ;
+  background-size: cover;
+  font-family:  "Coral Pixels", serif;
+  font-style: normal;
+  font-size: 2vw;
+  white-space: pre-line;
+}
+#imageUpload{
+    position: relative;
+    top: 105vh;
+    left: 60vw;
+    height: 5vh;
+    z-index: 6;
+}
+
+/* MIDI */
+
+.HARE1BUTTON{
+position: relative;
+  top: 180vh;
+  left: 0vw;
+  height: 4vh;
+  background-color: #ed0000f3;
+}
+
+.HARE2BUTTON {
+  position: relative;
+  top: 180vh;
+  left: 10vw;
+  height: 4vh;
+  background-color: #3fed00f3;
+}
+.KRSNA1BUTTON {
+  position: relative;
+  top: 180vh;
+  left: 20vw;
+  height: 4vh;
+  background-color: #ed0000f3;
+}
+.KRSNA2BUTTON {
+  position: relative;
+  top: 180vh;
+  left: 30vw;
+  height: 4vh;
+  background-color: #ed0000f3;
+}
+.RAMA1BUTTON {
+  position: relative;
+  top: 180vh;
+  left: 40vw;
+  height: 4vh;
+  background-color: #ed0000f3;
+}
+.RAMA2BUTTON {
+  position: relative;
+  top: 180vh;
+  left: 50vw;
+  height: 4vh;
+  background-color: #ed0000f3;
+}
+.FULL1BUTTON {
+  position: relative;
+  top: 180vh;
+  left: 60vw;
+  height: 4vh;
+  background-color: #ed0000f3;
+}
+.FULL2BUTTON {
+  position: relative;
+  top: 180vh;
+  left: 70vw;
+  height: 4vh;
+  background-color: #ed0000f3;
 }

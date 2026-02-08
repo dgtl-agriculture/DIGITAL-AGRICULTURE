@@ -1,5 +1,5 @@
 body {
-    background-color: #830303;
+    background-color:#ed0000;
     color: black;
     font-family: "Audiowide", sans-serif;
     font-weight: 400;
@@ -48,7 +48,7 @@ body {
 }
 .s6 {
     position: absolute;
-    color: black;
+    color: rgb(0, 0, 0);
     left: 31vw;
     top: 80vh;
     font-size: 1.5vw;
@@ -60,12 +60,22 @@ body {
     top: 84vh;
     font-size: 1.5vw;
 }
+.URDU{
+        position: absolute;
+        color: black;
+        left: 3vw;
+        top: 0vh;
+        font-size: 14vw;
+        margin: 0;
+        letter-spacing: 5vw;
+        font-weight: 800;
+    }
 .d{
     position: absolute;
     color: black;
-    left: 1vw;
+    left: 58vw;
     top: 0vh;
-    font-size: 15vw;
+    font-size: 3vw;
     margin: 0;
     letter-spacing: 5vw;
     font-weight: 800;
