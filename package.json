@@ -1,0 +1,21 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "JavaScript example starter project",
+  "main": "HOME.html",
+  "scripts": {
+    "start": "parcel HOME.html --open",
+    "build": "parcel build HOME.html"
+  },
+  "dependencies": {
+    "ani-cursor": "0.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "javascript",
+    "starter"
+  ]
+}

@@ -4,15 +4,9 @@
 
     var counter = 0;
 
-    var bgColor = [
-        "#00000", // color array for background-color
-        "#00000",
-    ];
+    var bgColor = ["#00000", "#00000", "#00000", "#00000", "#00000"];
 
-    var imgArray = [
-        "pics/genda.png", //add URLs for your images here
-        "pics/genda2.png"
-    ];
+    var imgArray = ["pics/genda.png", "pics/genda2.png", "pics/genda.png", "pics/genda2.png","pics/genda3.png"];
 
 
     container.onclick = function (e) { //add images on click-event
