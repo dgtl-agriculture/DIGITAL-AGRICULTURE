@@ -1,7 +1,7 @@
 body {
-    background-color:#ed0000;
-    color: black;
-    font-family: "Audiowide", sans-serif;
+    background-color:#000000;
+    color: rgb(255, 0, 0);
+    font-family:"Bacasime Antique", serif;
     font-weight: 400;
     font-style: normal;}
 .parent{
@@ -10,92 +10,29 @@ body {
     top: 0vh;
 }
 
-.s1{
-  position: absolute;
-    color:black;
-    left: 30vw;
-    top: 30vh;
-    font-size: 1.5vw;
-    font-weight: 900;
-}
-.s2 {
-    position: absolute;
-    color: black;
-    left: 30vw;
-    top: 40vh;
-    font-size: 1.5vw;
-}
-.s3 {
-    position: absolute;
-    color: black;
-    left: 33vw;
-    top: 50vh;
-    font-size: 1.5vw;
-}
-.s4 {
-    position: absolute;
-    color: black;
-    left: 36vw;
-    top: 60vh;
-    font-size: 1.5vw;
-}
-.s5 {
-    position: absolute;
-    color: black;
-    left: 38vw;
-    top: 70vh;
-    font-size: 1.5vw;
-}
-.s6 {
-    position: absolute;
-    color: rgb(0, 0, 0);
-    left: 31vw;
-    top: 80vh;
-    font-size: 1.5vw;
-}
-.s7 {
-    position: absolute;
-    color: black;
-    left: 33vw;
-    top: 84vh;
-    font-size: 1.5vw;
-}
-.URDU{
-        position: absolute;
-        color: black;
-        left: 3vw;
-        top: 0vh;
-        font-size: 14vw;
-        margin: 0;
-        letter-spacing: 5vw;
-        font-weight: 800;
-    }
-.d{
-    position: absolute;
-    color: black;
-    left: 58vw;
+.s1{position: absolute;color:rgb(255, 255, 255);left: 10vw; top: 35vh;font-size: 1.5vw;font-weight: 900;z-index: 1;}
+.s2 {position: absolute;color: rgb(255, 255, 255);left: 10vw;top: 45vh;font-size: 1.5vw;z-index: 1;}
+.s3 {position: absolute;color: rgb(255, 255, 255);left: 50vw;top: 45vh;font-size: 1.5vw;z-index: 1;}
+.s4 {position: absolute;color: rgb(255, 255, 255);left: 12vw;top: 50vh;font-size: 1.5vw;z-index: 1;}
+.s5 {position: absolute;color: rgb(255, 255, 255);left: 43vw;top: 50vh;font-size: 1.5vw;z-index: 1;white-space: nowrap;}
+.s6 {position: absolute;color: rgb(255, 255, 255);left: 35vw;top: 60vh;font-size: 1.5vw;z-index: 1;}
+.URDU{position: absolute;color: rgb(255, 255, 255);left: 3vw;top: 0vh;font-size: 14vw;margin: 0;letter-spacing: 5vw;font-weight: 800;z-index: 101;}
+.URDU:hover {color: #0008ED;}
+.d{position: absolute;color: rgb(96, 0, 0);left: 58vw;top: 0vh;font-size: 3vw;margin: 0;letter-spacing: 5vw;font-weight: 800;z-index: 1;}
+.ag{position: absolute;color: rgb(137, 0, 0);left: -2vw;top: 40vh;font-size: 28vw;font-weight: 800;rotate: -90deg;margin: 0;letter-spacing: 2vh;z-index: 1;}
+.opening{position: absolute;left: 3vw;top: 20vh;margin: 0;z-index: 2;width: 15vw;z-index: 1;}
+
+
+#container {
+    position:absolute;
     top: 0vh;
-    font-size: 3vw;
-    margin: 0;
-    letter-spacing: 5vw;
-    font-weight: 800;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
 }
-.ag{
-    position: absolute;
-    color: black;
-    left: -2vw;
-    top: 40vh;
-    font-size: 28vw;
-    font-weight: 800;
-    rotate: -90deg;
-    margin: 0;
-    letter-spacing: 2vh;
+
+.image {
+    width: 10vw;
+    z-index:100;
 }
-.opening{
-    position: absolute;
-        left: 3vw;
-        top: 20vh;
-        margin: 0;
-        z-index: 2;
-        width: 15vw;
-}
+
