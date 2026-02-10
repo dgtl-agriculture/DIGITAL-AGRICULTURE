@@ -187,7 +187,7 @@ body {
 .faiwy{
   position:relative;
   top: 80vh;
-  left: 15vw;
+  left: 75vw;
   width:auto;
   height:37vh;
   transform: rotate(-10deg);
@@ -202,15 +202,15 @@ body {
 }
 .nani{
   position:absolute;
-  top: 100vh;
+  top: 78vh;
   left: 0vw;
-  width:20vw;
-  z-index: 5;
+  width:28vw;
+  z-index: 2;
 }
 .VEER {
   position: absolute;
-  top: 146vh;
-  left: 25vw;
+  top: 134vh;
+  left: 41vw;
   width: 13vw;
   z-index: 5;
 }
@@ -224,8 +224,8 @@ body {
 }
 .sign{
   position:absolute;
-  top: 117vh;
-  left: 15vw;
+  top: 150vh;
+  left: 55vw;
   height:15vw;
   transform: rotate(-10deg);
   z-index: 5;
@@ -240,8 +240,8 @@ body {
 }
 .seeriyan{
   position:absolute;
-  top: 78vh;
-  left: 70vw;
+  top: 104vh;
+  left: 20vw;
   width:13vw;
   z-index:5 ;
 }
@@ -281,17 +281,41 @@ body {
   z-index: 4;
   rotate:10deg;
 }
-
-
-/* WEBAMP */
 .WEBAMPsHIZ{
   position: absolute;
-  top: 135vh;
+  top: 165vh;
   left: 45vw;
-  height: 10vh;
+  height: 14vh;
   z-index:5
 }
-
+.falestine{
+  position: absolute;
+  top: 120vh;
+  left: 49vw;
+  width: 12vw;
+  z-index: 4;
+}
+.foots{
+    position: absolute;
+    top: 145vh;
+    left: 72vw;
+    width: 25vw;
+    z-index: 1;
+}
+.seaview {
+  position: absolute;
+  top: 142vh;
+  left: 12vw;
+  width: 30vw;
+  z-index: 1;
+}
+.kite {
+  position: absolute;
+  top: 162vh;
+  left: 8vw;
+  width: 13vw;
+  z-index: 1;
+}
 /* ---------------------- OUTFIT SECTION  LOCKED GEOMETRY ---------------------- */
 :root {
   --design-width: 1512; /* for macbook */
@@ -326,28 +350,34 @@ body {
 /* ---------------- INDIVIDUAL CLOTHES ---------------- */
 
 .base {
-  top: calc(340px * var(--scale));
+  top: calc(540px * var(--scale));
   left: calc(670px * var(--scale));
   width: calc(189px * var(--scale));
   z-index: 1;
 }
+.room {
+  top: calc(342px * var(--scale));
+  left: calc(302px * var(--scale));
+  width: calc(907px * var(--scale));
+  z-index: 0;
+}
 
 .jersey {
-  top: calc(578px * var(--scale));
+  top: calc(778px * var(--scale));
   left: calc(1309px * var(--scale));
   width: calc(219px * var(--scale));
   z-index: 4;
 }
 
 .fitness {
-  top: calc(290px * var(--scale));
+  top: calc(490px * var(--scale));
   left: calc(1100px * var(--scale));
   width: calc(228px * var(--scale));
   z-index: 4;
 }
 
 .pants {
-  top: calc(628px * var(--scale));
+  top: calc(828px * var(--scale));
   left: calc(1220px * var(--scale));
   width: calc(150px * var(--scale));
   transform: rotate(3deg);
@@ -355,14 +385,14 @@ body {
 }
 
 .DOOM {
-  top: calc(430px * var(--scale));
+  top: calc(630px * var(--scale));
   left: calc(514px * var(--scale));
   width: calc(76px * var(--scale));
   z-index: 2;
 }
 
 .BOOT1 {
-  top: calc(714px * var(--scale));
+  top: calc(914px * var(--scale));
   left: calc(362px * var(--scale));
   width: calc(76px * var(--scale));
   transform: rotate(4deg);
@@ -370,7 +400,7 @@ body {
 }
 
 .BOOT2 {
-  top: calc(714px * var(--scale));
+  top: calc(914px * var(--scale));
   left: calc(383px * var(--scale));
   width: calc(76px * var(--scale));
   transform: scaleX(-1) rotate(4deg);
@@ -378,94 +408,87 @@ body {
 }
 
 .SURYAHEAD {
-  top: calc(120px * var(--scale));
+  top: calc(350px * var(--scale));
   left: calc(310px * var(--scale));
   width: calc(76px * var(--scale));
   z-index: 2;
 }
 .aHa{
-  top: calc(470px * var(--scale));
+  top: calc(670px * var(--scale));
   left: calc(1110px * var(--scale));
   width: calc(186px * var(--scale));
   z-index: 2;
 }
 .hotline{
-  top: calc(150px * var(--scale));
+  top: calc(350px * var(--scale));
   left: calc(-270px * var(--scale));
   width: calc(455px * var(--scale));
   z-index: 10;
   transform: rotate(-4deg);
 }
 .blonde{
-  top: calc(350px * var(--scale));
+  top: calc(650px * var(--scale));
   left: calc(-270px * var(--scale));
   width: calc(455px * var(--scale));
   z-index: 10;
   transform: rotate(0deg);
 }
 .brownshorts {
-  top: calc(626px * var(--scale));
+  top: calc(826px * var(--scale));
   left: calc(66px * var(--scale));
   width: calc(151px * var(--scale));
   z-index: 2;
 }
 
 .blackpants {
-  top: calc(560px * var(--scale));
+  top: calc(760px * var(--scale));
   left: calc(685px * var(--scale));
   width: calc(162px * var(--scale));
   z-index: 2;
 }
 
 .SUIT {
-  top: calc(364px * var(--scale));
+  top: calc(564px * var(--scale));
   left: calc(1258px * var(--scale));
   width: calc(226px * var(--scale));
   z-index: 5;
 }
 
-.room {
-  top: calc(142px * var(--scale));
-  left: calc(302px * var(--scale));
-  width: calc(907px * var(--scale));
-  z-index: 0;
-}
-
 .phool {
-  top: calc(89px * var(--scale));
+  top: calc(309px * var(--scale));
   left: calc(76px * var(--scale));
   width: calc(604px * var(--scale));
   z-index: -1;
 }
 
 .phool2 {
-  top: calc(89px * var(--scale));
+  top: calc(389px * var(--scale));
   left: calc(983px * var(--scale));
   width: calc(604px * var(--scale));
   z-index: -1;
 }
 
 .ytskrt {
-  top: calc(606px * var(--scale));
+  top: calc(806px * var(--scale));
   left: calc(191px * var(--scale));
   width: calc(166px * var(--scale));
   z-index: 2;
 }
 .flair{
-  top: calc(40px * var(--scale));
+  top: calc(320px * var(--scale));
   left: calc(1191px * var(--scale));
   width: calc(550px * var(--scale));
   z-index: 5;
 }
 .bluekurta {
-  top: calc(210px * var(--scale));
+  top: calc(410px * var(--scale));
   left: calc(160px * var(--scale));
   width: calc(220px * var(--scale));
   z-index: 3;
 }
 
 .blackkurta {
-  top: calc(396px * var(--scale));
+  top: calc(596px * var(--scale));
   left: calc(151px * var(--scale));
   width: calc(215px * var(--scale));
   transform: rotate(1deg);
@@ -473,7 +496,7 @@ body {
 }
 
 .champ {
-  top: calc(156px * var(--scale));
+  top: calc(356px * var(--scale));
   left: calc(151px * var(--scale));
   width: calc(212px * var(--scale));
   transform: rotate(85deg);
@@ -481,7 +504,7 @@ body {
 }
 
 .topi {
-  top: calc(146px * var(--scale));
+  top: calc(366px * var(--scale));
   left: calc(212px * var(--scale));
   width: calc(45px * var(--scale));
   transform: rotate(5deg);
@@ -489,7 +512,7 @@ body {
 }
 
 .furry {
-  top: calc(701px * var(--scale));
+  top: calc(901px * var(--scale));
   left: calc(1104px * var(--scale));
   width: calc(88px * var(--scale));
   transform: rotate(7deg);
@@ -497,13 +520,12 @@ body {
 }
 
 .furry2 {
-  top: calc(701px * var(--scale));
+  top: calc(901px * var(--scale));
   left: calc(1098px * var(--scale));
   width: calc(88px * var(--scale));
   transform: scaleX(-1) rotate(7deg);
   z-index: 1;
 }
-
 
 /* ---------------------- DHRUV -------------------- */
 
@@ -513,7 +535,7 @@ body {
   height: calc(2000px * var(--scale)); /* taller collage, same width grid */
   margin: 0 auto;
   /* top: calc(2200px * var(--scale)); */
-  top: 210vh;
+  top: 260vh;
   z-index: 4;
 }
 .DHRUV img,
@@ -570,7 +592,7 @@ body {
 /* EXTRA BG  */
 .extrabg{
   position: relative;
-  top: 20vh;
+  top: 40vh;
   left: 0vw;
   display: flex;
 }
@@ -618,8 +640,6 @@ body {
   transform: rotate(-90deg);
   color: rgba(225, 31, 2, 0.744);
 }
-
-
 .SCROLL{
   position: absolute;
   top: 430vh;
@@ -628,7 +648,7 @@ body {
 }
 
 /* JOURNAL + GENDA */
-.GENDABORDER{position: relative;top: 110vh;left: 0vw;}
+.GENDABORDER{position: relative;top: 160vh;left: 0vw;}
 .genda1{position: absolute;top: 10vh;left: -10vw;z-index: 7;width: 20vw;}
 .genda2{position: absolute;top: 10vh;left: 5;z-index: 8;width: 20vw;}
 .genda3{position: absolute;top: 10vh;left: 15vw;z-index: 9;width: 20vw;}
@@ -646,7 +666,7 @@ body {
 
 #JOURNAL{
   position: relative;
-  top: 155vh;
+  top: 195vh;
   left: 0vw;
   height: 60vh;
   z-index: 5;
@@ -660,8 +680,8 @@ body {
 }
 #imageUpload{
     position: relative;
-    top: 105vh;
-    left: 60vw;
+    top: 145vh;
+    left: 70vw;
     height: 5vh;
     z-index: 6;
 }
