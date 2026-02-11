@@ -195,8 +195,8 @@ body {
 }
 .xareen{
   position: absolute;
-  top: 114vh;
-  left: 45vw;
+  top: 122vh;
+  left: 63vw;
   width: 20vw;
   z-index: 5;
 }
@@ -232,11 +232,11 @@ body {
 }
 .epit{
   position:absolute;
-  top: 72vh;
-  left: 75vw;
+  top: 122vh;
+  left: 31vw;
   height:15vw;
-  transform: rotate(10deg);
-  z-index: 4;
+  transform: rotate(12deg);
+  z-index: 1;
 }
 .seeriyan{
   position:absolute;
@@ -302,7 +302,7 @@ body {
     width: 25vw;
     z-index: 1;
 }
-.seaview {
+.seaview{
   position: absolute;
   top: 142vh;
   left: 12vw;
@@ -314,7 +314,22 @@ body {
   top: 162vh;
   left: 8vw;
   width: 13vw;
+  z-index: 5;
+}
+.pinjra{
+    position: absolute;
+    top: 174vh;
+    left: 21vw;
+    width: 7vw;
+    z-index: 5;
+}
+.emerald{
+  position: absolute;
+  top: 103vh;
+  left: -1vw;
+  width: 8vw;
   z-index: 1;
+  rotate: -18deg;
 }
 /* ---------------------- OUTFIT SECTION  LOCKED GEOMETRY ---------------------- */
 :root {
@@ -548,29 +563,34 @@ body {
   top: calc(0px * var(--scale));
   left: calc(0px * var(--scale));
   width: calc(1150px * var(--scale));
+  z-index: 2;
 }
 .DHRUVTWO {
   top: calc(0px * var(--scale));
   left: calc(1150px * var(--scale));
   width: calc(380px * var(--scale));
+    z-index: 2;
 }
 
 .DHRUVTHREE {
   top: calc(572px * var(--scale));
   left: calc(550px * var(--scale));
   width: calc(1040px * var(--scale));
+    z-index: 2;
 }
 
 .DHRUVFOUR {
   top: calc(575px * var(--scale));
   left: calc(0px * var(--scale));
   width: calc(550px * var(--scale));
+    z-index: 2;
 }
 
 .DHRUVFIVE {
   top: calc(900px * var(--scale));
   left: calc(0px * var(--scale));
   width: calc(600px * var(--scale));
+    z-index: 2;
 }
 
 .DHRUVmini {
@@ -589,6 +609,22 @@ body {
   z-index: 5;
 }
 
+.DHRUVLEFT{
+  position: relative;
+    top: 40vh;
+    left: 0vw;
+    display: flex;
+    width: 20vw;
+}
+.DHRUVBYE{
+    position: relative;
+      top: -35vh;
+      left: 14vw;
+      display: flex;
+      width:55vw;
+      z-index: 0;
+      padding: 0px 0px 0px 0px
+}
 /* EXTRA BG  */
 .extrabg{
   position: relative;
@@ -680,10 +716,15 @@ body {
 }
 #imageUpload{
     position: relative;
-    top: 145vh;
-    left: 70vw;
+    top: 149vh;
+    left: 78vw;
     height: 5vh;
     z-index: 6;
+    background: transparent;
+    color: #e70606;
+    cursor: pointer;
+    font-size: 0.8vw;
+    font-family:"Garamond";
 }
 
 /* MIDI */
