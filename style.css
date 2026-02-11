@@ -685,20 +685,20 @@ body {
 
 /* JOURNAL + GENDA */
 .GENDABORDER{position: relative;top: 160vh;left: 0vw;}
-.genda1{position: absolute;top: 10vh;left: -10vw;z-index: 7;width: 20vw;}
-.genda2{position: absolute;top: 10vh;left: 5;z-index: 8;width: 20vw;}
-.genda3{position: absolute;top: 10vh;left: 15vw;z-index: 9;width: 20vw;}
-.genda4{position: absolute;top: 10vh;left: 25vw;z-index: 10;width: 20vw;} 
-.genda5{position: absolute;top: 10vh;left: 55vw;z-index: 11;width: 20vw;}
-.genda6{position: absolute;top: 10vh;left: 65vw;z-index: 12;width: 20vw;}
-.genda7{position: absolute;top: 10vh;left: 75vw;z-index: 13;width: 20vw;}
-.genda1A{position: absolute;top: 10vh;left: 7vw;z-index: 7;width: 20vw;}
-.genda2A{position: absolute;top: 10vh;left: 27;z-index: 8;width: 20vw;}
-.genda3A{position: absolute;top: 10vh;left: 35vw;z-index: 9;width: 25vw;}
-.genda4A{position: absolute;top: 10vh;left: 41vw;z-index: 14;width: 25vw;} 
-.genda5A{position: absolute;top: 10vh;left: 55vw;z-index: 11;width: 25vw;}
-.genda6A{position: absolute;top: 10vh;left: 60vw;z-index: 15;width: 20vw;}
-.genda7A{position: absolute;top: 10vh;left: 85vw;z-index: 19;width: 25vw;}
+.genda1{position: absolute;top: 10vh;left: -10vw;z-index: 7;width: 20vw;padding: 0px 0px 0px 0px;}
+.genda2{position: absolute;top: 10vh;left: 5;z-index: 8;width: 20vw;padding: 0px 0px 0px 0px;}
+.genda3{position: absolute;top: 10vh;left: 15vw;z-index: 9;width: 20vw;padding: 0px 0px 0px 0px;}
+.genda4{position: absolute;top: 10vh;left: 25vw;z-index: 10;width: 20vw;padding: 0px 0px 0px 0px;} 
+.genda5{position: absolute;top: 10vh;left: 55vw;z-index: 11;width: 20vw;padding: 0px 0px 0px 0px;}
+.genda6{position: absolute;top: 10vh;left: 65vw;z-index: 12;width: 20vw;padding: 0px 0px 0px 0px;}
+.genda7{position: absolute;top: 10vh;left: 75vw;z-index: 13;width: 20vw;padding: 0px 0px 0px 0px;}
+.genda1A{position: absolute;top: 10vh;left: 7vw;z-index: 7;width: 20vw;padding: 0px 0px 0px 0px;}
+.genda2A{position: absolute;top: 10vh;left: 27;z-index: 8;width: 20vw;padding: 0px 0px 0px 0px;}
+.genda3A{position: absolute;top: 10vh;left: 35vw;z-index: 9;width: 25vw;padding: 0px 0px 0px 0px;}
+.genda4A{position: absolute;top: 10vh;left: 41vw;z-index: 14;width: 25vw;padding: 0px 0px 0px 0px;} 
+.genda5A{position: absolute;top: 10vh;left: 55vw;z-index: 11;width: 25vw;padding: 0px 0px 0px 0px;}
+.genda6A{position: absolute;top: 10vh;left: 60vw;z-index: 15;width: 20vw;padding: 0px 0px 0px 0px;}
+.genda7A{position: absolute;top: 10vh;left: 85vw;z-index: 19;width: 25vw;padding: 0px 0px 0px 0px;}
 
 #JOURNAL{
   position: relative;
