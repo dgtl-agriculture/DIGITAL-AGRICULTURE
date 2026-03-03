@@ -7,7 +7,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Coral+Pixels&family=Ultra&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
 
     <script>
       document.addEventListener("DOMContentLoaded", () => {
@@ -290,21 +290,37 @@
     <img src="pics/genda2.png" class='genda7A'>
   </div>
 
-<div id="JOURNAL" contenteditable="true" class="JOURNAL">
-<p class="whiteboard">i would like to take this moment to acknowledge my use of big tech filth.
+<div contenteditable="true" class="JOURNAL">
+
+  <!-- Upload button for journal background -->
+  <form action="upload.php" method="post" enctype="multipart/form-data">
+    <label for="imageUpload"></label>
+    <input type="file" id="imageUpload" name="image" accept="image/*">
+    <input type="submit">
+  </form>
+
+<p id="whiteboard">
+  
+  i would like to take this moment to acknowledge my use of big tech filth.
 
 i currently host off github (microsoft) and use google fonts. I am planning on divesting as i learn more
-in the near future. in the meanwhile if you have any history with font development or
-website hosting be in touch <3
+in the near future. 
 
 i want to build your trust again, please write here as you wish, it goes nowhere, just on this screen and away forever when you refresh.
-take as much space as you need. here i'll start
+take as much space as you need. here i'll start,
 
 i hate fitting in somewhere I'm not from. like... where am i really from then? i hate fitting in here.
 
 a university education is the most artificial intelligence. how are you talking about working against climate change and promoting generative AI in the same stream of thought.
-if you need a chat bot to teach you something, your education system has failed you, demand better from them.  </p>
+if you need a chat bot to teach you something, your education system has failed you, demand better from them. </p>
 </div>
+
+<div class = 'JOURNALCOLLAGE'>
+  <img src="pics/fruities.jpeg" id='lychee'>
+  <img src="pics/phase7.jpeg" id='phase'> 
+  <img src="pics/walk.jpeg" id='walk'>
+</div>
+
 
 <script>
   document.getElementById("whiteboard").addEventListener('click', function (el) {
@@ -317,12 +333,7 @@ if you need a chat bot to teach you something, your education system has failed 
   }
 </script>
 
-<!-- Upload button for journal background -->
-<form action="upload.php" method="post" enctype="multipart/form-data">
-  <label for="imageUpload"></label>
-  <input type="file" id="imageUpload" name="image" accept="image/*">
-  <input type="submit" >
-</form>
+
 
 <script>
   // Get references to the elements

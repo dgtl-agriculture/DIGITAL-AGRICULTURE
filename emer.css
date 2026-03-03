@@ -11,7 +11,7 @@ body {
 }
 
 .n1 {position: absolute;color: rgb(255, 255, 255);left: 10vw;top: 15vh;font-size: 1.5vw; font-weight: 900;z-index: 3;}
-.n2{position: absolute;color: rgb(255, 255, 255);left: 20vw;top: 15vh;font-size: 1.5vw;font-weight: 900;z-index: 3;}
-.n3{position: absolute;color: rgb(255, 255, 255);left: 10vw;top: 35vh;font-size: 1.5vw;font-weight: 900;z-index: 3;}
-.n4{position: absolute;color: rgb(255, 255, 255);left: 20vw;top: 35vh;font-size: 1.5vw;font-weight: 900;z-index: 3;}
-.n5{position: absolute;color: rgb(255, 255, 255);left: 20vw;top: 45vh;font-size: 1.5vw;font-weight: 900;z-index: 3;}
+.n2{position: absolute;color: rgb(255, 255, 255);left: 11vw;top: 25vh;font-size: 1.5vw;font-weight: 900;z-index: 3;}
+.n3{position: absolute;color: rgb(255, 255, 255);left: 12vw;top: 35vh;font-size: 1.5vw;font-weight: 900;z-index: 3;}
+.n4{position: absolute;color: rgb(255, 255, 255);left: 13vw;top: 45vh;font-size: 1.5vw;font-weight: 900;z-index: 3;}
+.n5{position: absolute;color: rgb(255, 255, 255);left: 14vw;top: 55vh;font-size: 1.5vw;font-weight: 900;z-index: 3;}

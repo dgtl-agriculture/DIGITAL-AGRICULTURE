@@ -549,7 +549,6 @@ body {
   width: calc(var(--design-width) * 1px * var(--scale));
   height: calc(2000px * var(--scale)); /* taller collage, same width grid */
   margin: 0 auto;
-  /* top: calc(2200px * var(--scale)); */
   top: 260vh;
   z-index: 4;
 }
@@ -634,6 +633,7 @@ body {
   display: flex;
 }
 .maaloom{
+
   position: absolute;
   top: 0vh;
   left: 60vw;
@@ -701,25 +701,32 @@ body {
 .genda6A{position: absolute;top: 10vh;left: 60vw;z-index: 15;width: 20vw;padding: 0px 0px 0px 0px;}
 .genda7A{position: absolute;top: 10vh;left: 85vw;z-index: 19;width: 25vw;padding: 0px 0px 0px 0px;}
 
-#JOURNAL{
-  position: relative;
-  top: 195vh;
+.JOURNAL{
+position: relative;
+  top: 190vh;
+  left: 0vw;
+}
+#whiteboard{
+  position: absolute;
+  top: 0vh;
   left: 0vw;
   height: 60vh;
   z-index: 5;
   border: 1vw solid transparent;
   background-image: url('pics/google-2009.png') ;
   background-size: cover;
-  font-family:  "Coral Pixels", serif;
+  font-family: "EB Garamond", serif;
+  font-weight: 300;
+  font-size:4vw;
   font-style: normal;
-  font-size: 2vw;
   white-space: pre-line;
 }
 #imageUpload{
-    position: relative;
-    top: 149vh;
+    position: absolute;
+    top: 30vh;
     left: 78vw;
     height: 5vh;
+    width:10vw;
     z-index: 6;
     background: transparent;
     color: #e70606;
@@ -727,9 +734,19 @@ body {
     font-size: 0.8vw;
     font-family:"Garamond";
 }
+.JOURNALCOLLAGE {
+  position: relative;
+  width: calc(var(--design-width) * 1px * var(--scale));
+  height: calc(1000px * var(--scale));
+  margin: 0 auto;
+  top: 190vh;
+  z-index: 0;
+}
+#lychee{position: absolute;top: calc(990px * var(--scale));left: calc(200px * var(--scale));width: calc(400px * var(--scale));z-index: 0;}
+#phase {position: absolute;top: calc(2090px * var(--scale));left: calc(700px * var(--scale));width: calc(400px * var(--scale));z-index: 0;}
+#walk {position: absolute;top: calc(1340px * var(--scale));left: calc(900px * var(--scale));width: calc(100px * var(--scale));z-index: 0;}
 
 /* MIDI */
-
 .HARE1BUTTON{
 position: relative;
   top: 180vh;
