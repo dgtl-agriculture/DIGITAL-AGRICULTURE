@@ -615,6 +615,7 @@ body {
     left: 0vw;
     display: flex;
     width: 20vw;
+    z-index: 3;
 }
 .DHRUVBYE{
     position: relative;

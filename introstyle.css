@@ -14,7 +14,7 @@ body {
 .s3 {position: absolute;color: rgb(255, 255, 255);left: 50vw;top: 45vh;font-size: 1.5vw;z-index: 1;}
 .s4 {position: absolute;color: rgb(255, 255, 255);left: 12vw;top: 50vh;font-size: 1.5vw;z-index: 1;}
 .s5 {position: absolute;color: rgb(255, 255, 255);left: 43vw;top: 50vh;font-size: 1.5vw;z-index: 1;white-space: nowrap;}
-.s6 {position: absolute;color: rgb(255, 255, 255);left: 35vw;top: 60vh;font-size: 1.5vw;z-index: 1;}
+.s6 {position: absolute;color: rgb(255, 255, 255);left: 35vw;top: 60vh;font-size: 1.5vw;z-index: 3;text-decoration: inherit;cursor: text;}
 .URDU{position: absolute;color: rgb(255, 255, 255);right: 3vw;top: 0vh;font-size: 14vw; z-index: 3;text-decoration: none;}
 .URDU:hover {color: #0008ED;}
 

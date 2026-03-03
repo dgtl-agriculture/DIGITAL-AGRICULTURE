@@ -1,0 +1,17 @@
+body {
+  background-color: #000000;
+  font-family: "Bacasime Antique", serif;
+  font-style: normal;
+}
+
+.parent {
+  position: relative;
+  left: 0vw;
+  top: 0vh;
+}
+
+.n1 {position: absolute;color: rgb(255, 255, 255);left: 10vw;top: 15vh;font-size: 1.5vw; font-weight: 900;z-index: 3;}
+.n2{position: absolute;color: rgb(255, 255, 255);left: 20vw;top: 15vh;font-size: 1.5vw;font-weight: 900;z-index: 3;}
+.n3{position: absolute;color: rgb(255, 255, 255);left: 10vw;top: 35vh;font-size: 1.5vw;font-weight: 900;z-index: 3;}
+.n4{position: absolute;color: rgb(255, 255, 255);left: 20vw;top: 35vh;font-size: 1.5vw;font-weight: 900;z-index: 3;}
+.n5{position: absolute;color: rgb(255, 255, 255);left: 20vw;top: 45vh;font-size: 1.5vw;font-weight: 900;z-index: 3;}
