@@ -7,9 +7,11 @@
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Micro+5&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
 
-    <script>
+<script>
       document.addEventListener("DOMContentLoaded", () => {
               const undraggableClasses = ["BANNER", "temple", "base", "room", "phool", "phool2","seaview","foots"];
               const images = document.querySelectorAll(".COLLAGEparent img, .OUTFIT img, .GENDABORDER img");
@@ -75,7 +77,7 @@
         {
           url: "trax/BAARO MAALA.mp3",
           metaData: { artist: "EXCISE DEPT.", title: "TRACK 1" },
-          duration: 300
+          duration: 300 
         },
         {
           url: "trax/FRESS.mp3",
@@ -360,59 +362,33 @@ if you need a chat bot to teach you something, your education system has failed 
 
 <!-- JOURNAL END -->
 
-
-
-<!-- MIDI -->
-<!-- <audio id="HARE1">
-  <source src="MIDI/Hare1.mp3" type="audio/mp3">
-</audio>
-<audio id="HARE2">
-  <source src="MIDI/Hare2.mp3" type="audio/mp3">
-</audio>
-<audio id="KRSNA1">
-  <source src="MIDI/krsna1.mp3" type="audio/mp3">
-</audio>
-<audio id="KRSNA2">
-  <source src="MIDI/krsna2.mp3" type="audio/mp3">
-</audio>
-<audio id="RAMA1">
-  <source src="MIDI/rama1.mp3" type="audio/mp3">
-</audio>
-<audio id="RAMA2">
-  <source src="MIDI/rama2.mp3" type="audio/mp3">
-</audio>
-<audio id="FULL1">
-  <source src="MIDI/FULL1.mp3" type="audio/mp3">
-</audio>
-<audio id="FULL2">
-  <source src="MIDI/FULL2.mp3" type="audio/mp3">
-</audio> -->
-
-
-<!-- <script>var x = document.getElementById("HARE1"); function playAudio() { x.play(); } </script> -->
-
-
-
-<!-- <button onclick="playAudio()" type="button" class="HARE1BUTTON">HARE</button>
-<button onclick="playAudioB()" type="button" class="HARE2BUTTON">HARE</button>
-<script>var x = document.getElementById("HARE2"); function playAudioB() { x.play(); } </script>
-<button onclick="playAudioC()" type="button" class="KRSNA1BUTTON">KRSNA</button>
-<script>var x = document.getElementById("KRSNA1"); function playAudioC() { x.play(); } </script>  -->
-<!-- <button onclick="playAudio()" type="button" class="KRSNA2BUTTON">KRSNA</button>
-<button onclick="playAudio()" type="button" class="RAMA1BUTTON">RAMA</button>
-<button onclick="playAudio()" type="button" class="RAMA2BUTTON">RAMA</button>
-<button onclick="playAudio()" type="button" class="FULL1BUTTON">NAGMA</button>
-<button onclick="playAudio()" type="button" class="FULL2BUTTON">NAGMA</button> -->
-
-<!-- <script type="text/javascript">
-  const srcArr = ["MIDI/Hare1.mp3", "MIDI/krsna2.mp3"];
-  const audios = new Array(srcArr.length).fill(new Audio());
-  audios.forEach((audio, index) => audio.src = srcArr[index]);
+<!-- FREDA THE FORTUNE TELLER -->
+<script>
+  var images = ["freda/throwmoney.png", "freda/outfitrepeater.png", "freda/mama.png", "freda/uproblem.png", "freda/namaz.png", "freda/no.png"];
+  var currentImage = 1; //defaults to image1.jpg
+  function goNext() {
+    if (document.getElementById('typespace').value !== '' && document.getElementById('typespace').value !== "Ask Freda for some advice...." && document.getElementById('typespace').value !== "ask Freda something else" ){
+        document.getElementById("reply").src = images[currentImage];
+        currentImage = Math.floor(Math.random() * images.length);;
+        document.getElementById('typespace').value = 'ask Freda something else'
+    }
+   }
 </script>
 
-<button id="HARE1BUTTON" class="HARE1BUTTON" onclick="audios[0].play();"> click me </button>
-<button id="HARE2BUTTON" class="HARE2BUTTON" onclick="audios[1].play();"> click me </button> 
--->
+ <div class = 'FREDA_plot'>
+  <img src="freda/starbanner.gif" class='star_banner'>
+  <img src="freda/starbanner.gif" class='star_banner2'>
+  <img src="freda/starbanner.gif" class='star_banner3'>
+  <img src="freda/FREDA_FULL2.png" class='freda'>
+  <!-- <img src="freda/naseebapna.png" class='naseeb'> -->
+  <img src="freda/intro.png" id='reply'>
+
+  <div class='responsebar'>
+    <input id="typespace" type="text" value="Ask Freda for some advice....">
+    <button type="button" onclick=goNext() id="fredabutton"> </button>
+    </div>
+
+  </div>
 
   </body>
 </html>
