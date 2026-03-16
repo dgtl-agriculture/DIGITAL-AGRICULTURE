@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DIGITALAGRICULTURE</title>
-    <script>$(document).ready(function () {$('head').append('<link href="style.css" rel="stylesheet" type="text/css" media="all">');}</script>
+    <script>
+      $(document).ready(function () {$('head').append('<link href="style.css" rel="stylesheet" type="text/css" media="all">');})
+      </script>
     // <link href="style.css" rel="stylesheet" type="text/css" media="all">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,15 +14,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Micro+5&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barriecito&display=swap" rel="stylesheet">
 
-
     <script>
       document.addEventListener("DOMContentLoaded", () => {
               const undraggableClasses = ["BANNER", "temple", "base", "room", "phool", "phool2","seaview","foots"];
               const images = document.querySelectorAll(".COLLAGEparent img, .OUTFIT img, .GENDABORDER img");
       
               images.forEach(img => {
-      
-          
               if (undraggableClasses.some(cls => img.classList.contains(cls))) {return; }
       
           let offsetX = 0;
