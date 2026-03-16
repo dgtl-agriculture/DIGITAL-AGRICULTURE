@@ -349,10 +349,8 @@ if you need a chat bot to teach you something, your education system has failed 
       const reader = new FileReader();
 
       reader.addEventListener('load', function () {
-        // Set the background image of the container to the result of the reader (a data URL)
         backgroundContainer.style.backgroundImage = `url('${reader.result}')`;
       });
-      // Read the file as a data URL
       reader.readAsDataURL(file);
     }
   });
