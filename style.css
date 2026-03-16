@@ -5,10 +5,6 @@ body {
   font-family: Garamond;
 }
 @font-face {
-  font-family: 'StarCrush';
-  src: url('/freda/star-crush/Star Crush.otf');
-}
-@font-face {
   font-family: 'Zombie';
   src: url('/freda/Curse of the Zombie 2.ttf');
 }
