@@ -104,7 +104,7 @@
       initialSkin: { url: "pics/Smooth_Blue_Chrome.wsz" },
     });
     webamp.renderWhenReady(document.getElementById("app")).then(() => {
-      setTimeout(() => { window.scrollTo(0, 0); }, 2000);
+      // setTimeout(() => { window.scrollTo(0, 0); }, 2000);
     });
   </script>
 
@@ -364,7 +364,7 @@ if you need a chat bot to teach you something, your education system has failed 
 
 <!-- FREDA THE FORTUNE TELLER -->
 <script>
-  var images = ["freda/throwmoney.png", "freda/outfitrepeater.png", "freda/mama.png", "freda/uproblem.png", "freda/namaz.png", "freda/no.png"];
+  var images = ["freda/throwmoney_nobg.png", "freda/outfitrepeater_nobg.png", "freda/mama_nobg.png", "freda/uproblem_nobg.png", "freda/namaz_nobg.png", "freda/no_nobg.png"];
   var currentImage = 1; //defaults to image1.jpg
   function goNext() {
     if (document.getElementById('typespace').value !== '' && document.getElementById('typespace').value !== "Ask Freda for some advice...." && document.getElementById('typespace').value !== "ask Freda something else" ){
@@ -377,17 +377,17 @@ if you need a chat bot to teach you something, your education system has failed 
 
  <div class = 'FREDA_plot'>
   <img src="freda/starbanner.gif" class='star_banner'>
-  <img src="freda/starbanner.gif" class='star_banner2'>
-  <img src="freda/starbanner.gif" class='star_banner3'>
-  <img src="freda/FREDA_FULL2.png" class='freda'>
-  <!-- <img src="freda/naseebapna.png" class='naseeb'> -->
-  <img src="freda/intro.png" id='reply'>
+  <img src="freda/freda_face.png" class='freda'>
+  <img src="freda/intro2.png" id='reply'>
+  <img src="freda/FRAME.png" id='frame'>
+  <img src="freda/spacebg.jpg" id='space'>
+
+  <p id='title'>FREDA THE FORTUNE TELLER </p>
 
   <div class='responsebar'>
-    <input id="typespace" type="text" value="Ask Freda for some advice....">
+    <input id="typespace" type="text" value="Ask Freda for some advice...">
     <button type="button" onclick=goNext() id="fredabutton"> </button>
     </div>
-
   </div>
 
   </body>
