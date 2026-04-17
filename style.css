@@ -57,20 +57,9 @@ body {
   left: 0vw;
   display: flex;
 }
-.bachat{
-  position:absolute;
-  top: 75vh;
-  left: 58.5vw;
-  width:40vw;
-  z-index: 2;
-}
-.craft{
-  position:absolute;
-  top: 60vh;
-  left: 28vw;
-  width:45vw;
-  z-index: 2;
-}
+.bachat{position:absolute;top: 75vh;left: 58.5vw;width:40vw;z-index: 2;}
+.craft{position:absolute;top: 60vh;left: 28vw;width:45vw;z-index: 2;}
+.wtfrishi{position: relative;top: 171vh;left: 52vw;width: auto;height: 37vh;transform;z-index: 1;}
 .faiwy{
   position:relative;
   top: 80vh;
@@ -635,7 +624,7 @@ position: relative;
 
 .FREDA_plot{position:relative;top:400vh;left:0vw;}
 .freda{position:absolute; top: 60vh;left:7vw;width:50vw;z-index: 2}
-#reply{position:absolute; top: 64vh;left:55vw;width:40vw;z-index:3}
+#reply{position:absolute; top: 64vh;left:55vw;width:40vw;z-index:3;max-width: 100% !important;}
 
 .responsebar{position:absolute;top:0vw;left:0vw;display:flex;z-index: 4;}
 #fredabutton{position:absolute; top: 116vh;left:61vw;width:450px;height:60px;z-index:4;background-image: url("freda/fredabuttonmid.gif")}
