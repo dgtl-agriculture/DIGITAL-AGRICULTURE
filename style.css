@@ -499,8 +499,9 @@ top: calc(540px * var(--scale_clothes));
 }
 
 .DHRUVLEFT{position: relative;top: 40vh;left: 0vw;display: flex;width: 20vw;z-index: 3;}
-.DHRUVBYE{position: relative;top: -35vh;left: 14vw;display: flex;width:55vw;z-index: 0;padding: 0px 0px 0px 0px}
+.DHRUVBYE{position: relative;top: -25vh;left: 30vw;display: flex;width:20vw;z-index: 1;} 
 /* EXTRA BG  */
+
 .extrabg{
   position: relative;
   top: 40vh;
