@@ -1,0 +1,50 @@
+body {
+    background-color: #0008ed;
+    font-family: "Bacasime Antique", serif;
+    font-style: normal;
+}
+
+.parent {
+position: absolute;
+    color: rgb(255, 255, 255);
+    left: 5vw;
+    top: 18vh;
+    font-size: 1.5vw;
+    font-weight: 900;
+    z-index: 3;
+}
+
+.heading{
+    position: absolute;
+    top: 2vh;
+    left: 12vw;
+    width: 35vw;
+    height: auto;
+    }
+.heems{
+    position: absolute;
+    top: 22vh;
+    left: 20vw;
+    width: 30vw;
+    height: auto;
+    z-index: 1;
+}
+/* 1. Unvisited link */
+a:link {
+    color: rgb(218, 146, 230);
+}
+
+/* 2. Visited link (Your requested fix) */
+a:visited {
+    color: rgb(170, 128, 233);
+}
+
+/* 3. Mouse over link */
+a:hover {
+    color: orange;
+}
+
+/* 4. Selected/clicked link */
+a:active {
+    color: red;
+}

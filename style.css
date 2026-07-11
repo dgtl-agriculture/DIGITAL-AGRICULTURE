@@ -61,6 +61,7 @@ body {
 .craft{position:absolute;top: 60vh;left: 28vw;width:45vw;z-index: 2;}
 .wtfrishi{position: relative;top: 171vh;left: 52vw;width: auto;height: 37vh;z-index: 1;}
 .nopretty{position: relative;top: 183vh;left: -5vw;width: 60vw;height: 27vh;z-index: 10;transform: scale(0.8);}
+.creditsbutton{position: fixed;top: 11vh;left: 20vw;width: 5vw;height: auto;z-index: 3;}
 
 .faiwy{
   position:relative;
