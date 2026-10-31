@@ -387,6 +387,58 @@ if you need a chat bot to teach you something, your education system has failed 
   </div>
 
   </div>
+  
+
+  <div class = 'bars'>
+    <p id = 'bartext'> green is Allah black he watches on over me <br>
+      soft like my janemaz with the shiddat of my parents daant<br>
+      i still pray for better days hoping they're ahead of me<br>
+      how much more can i get than what i've already seen<br>
+      
+      don't make me a pilgrim till i feel it in my feet<br>
+      walking circles through her hair<br>
+      breathe in uncertainty<br>
+      till i feel the heat on my forehead bare on the concrete<br>
+      thats true devotion i can't do polished floors and ACs <br>
+  
+      me and my brother like bhalaram<br>
+      the only gaura i'm on is my arti,<br>
+      from cessnock to north sydney<br>
+      woh mera sahib khan </p> 
+  </div>
+  
+  <style>
+    #bartext span {
+      transition: color 1s ease-out;  /* fading back: slow */
+    }
+    #bartext span:hover {
+      color: #ff0808;
+      transition: none;               /* lighting up: instant */
+    }
+  </style>
+  
+  <script>
+    document.querySelectorAll('#bartext').forEach(el => {
+      // Walk text nodes so any existing tags (<b>, <a>, etc.) survive
+      const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+  
+      nodes.forEach(node => {
+        const frag = document.createDocumentFragment();
+        for (const ch of node.textContent) {
+          if (/\s/.test(ch)) {
+            frag.appendChild(document.createTextNode(ch)); // keep spaces as plain text
+          } else {
+            const span = document.createElement('span');
+            span.textContent = ch;
+            frag.appendChild(span);
+          }
+        }
+        node.replaceWith(frag);
+      });
+    });
+  </script>
 
   </body>
 </html>

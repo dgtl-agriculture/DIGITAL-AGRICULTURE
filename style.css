@@ -12,6 +12,11 @@ body {
   font-family: 'DOS';
   src: url('/freda/Perfect DOS VGA 437 Win.ttf');
 }
+@font-face {
+  font-family: 'Nyght';
+  src: url('/nyght-serif-main/fonts/OTF/NyghtSerif-Medium.otf');
+}
+
 /* BORDER */
 .borderparent {position: relative;top: -1vh;left: 0vw;display: flex;}
 .bordhorz{position:absolute;top: 0vh;left: 0vw;width: 28vw;height:auto;z-index: 0;}
@@ -647,3 +652,8 @@ position: relative;
 .star_banner{position:absolute; top: 65vh;left:17vw;width:30vw;z-index:4;}
 #space{position:absolute; top: 30vh;left:0vw;width:100vw;height:130vh;z-index:0;}
 #title{position:absolute; top: 32vh;left:7vw;font-size: 6vw; z-index:3;font-family: 'Zombie';color: rgba(248, 1, 203, 0.602);}
+
+
+/* BARS */
+.bars{position: relative; top: 580vh; left: 2vw;}
+#bartext{position: absolute; top: 0vh; left: 0vw;font-size: 3vw; font-family:'Nyght';z-index:900;color:#0008ed}
